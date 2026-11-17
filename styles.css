@@ -83,3 +83,14 @@
 .next-unit-link:hover{gap:18px;transform:translateX(2px)}
 @media(max-width:600px){.lesson-footer-actions{align-items:stretch;flex-direction:column}.completion-actions{display:grid;grid-template-columns:1fr 1fr}.completion-btn{justify-content:flex-start;gap:7px;padding:9px 10px;white-space:normal}.completion-state{display:none}.next-unit-link{justify-content:space-between}}
 @media(max-width:360px){.completion-actions{grid-template-columns:1fr}.completion-btn{justify-content:center}}
+
+
+/* Final compact footer action layout */
+.lesson-footer-actions{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;align-items:center;gap:10px;margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
+.completion-actions{display:contents}
+.completion-btn{width:100%;min-width:0;justify-content:flex-start;min-height:46px;padding:8px 12px;border-radius:10px;white-space:nowrap}
+.completion-btn>span:nth-child(2){overflow:hidden;text-overflow:ellipsis}
+.completion-state{margin-left:auto;padding-left:9px}
+.next-unit-link{min-height:42px;justify-content:center;padding:9px 13px;border:1px solid color-mix(in srgb,var(--accent) 18%,var(--line));background:var(--surface);white-space:nowrap}
+@media(max-width:680px){.lesson-footer-actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.completion-btn{white-space:normal;min-height:48px}.completion-state{display:none}.next-unit-link{grid-column:1/-1;justify-content:space-between}}
+@media(max-width:380px){.lesson-footer-actions{grid-template-columns:1fr}.next-unit-link{grid-column:auto}.completion-btn{justify-content:flex-start}}
