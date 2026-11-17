@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#172b4d">
+<meta name="description" content="American English File 1 — interactive Elementary course companion">
+<title>American English File 1 · Elementary</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="Course home"><span class="brand-mark">AEF</span><span><b>American English File 1</b><small>ELEMENTARY · INTERACTIVE COURSE</small></span></a>
+  <div class="top-actions">
+    <button id="themeToggle" class="icon-btn" aria-label="Alternar tema" title="Alternar tema">☾</button>
+    <button id="menuToggle" class="icon-btn mobile-only" aria-label="Abrir menu">☰</button>
+  </div>
+</header>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="side-label">WORKSPACE</div>
+    <a class="nav-link active" href="#home" data-route="home">⌂ <span>Início</span></a>
+    <a class="nav-link" href="#library" data-route="library">▤ <span>Biblioteca de mídia</span></a>
+    <a class="nav-link" href="#progress" data-route="progress">◷ <span>Meu progresso</span></a>
+    <div class="side-label units-label">COURSE UNITS</div>
+    <nav id="unitNav" class="unit-nav"></nav>
+    <div class="sidebar-foot">Seu progresso e suas anotações ficam salvos neste dispositivo.</div>
+  </aside>
+  <main id="main" class="main-content" tabindex="-1">
+    <section class="hero">
+      <div class="eyebrow">YOUR ELEMENTARY LEARNING SPACE</div>
+      <h1>Learn English.<br><em>One step at a time.</em></h1>
+      <p>Um ambiente de estudo organizado para acompanhar as 12 unidades do American English File 1.</p>
+      <div class="hero-meta"><span>12 UNIDADES</span><span>STUDENT’S BOOK + WORKBOOK</span><span>LISTEN · SPEAK · PRACTISE</span></div>
+      <a class="primary-btn" href="#unit-1">Começar a estudar <span>→</span></a>
+    </section>
+    <section class="section-block">
+      <div class="section-heading"><div><span class="eyebrow">OVERVIEW</span><h2>Seu progresso</h2><p>Continue de onde você parou.</p></div><a href="#progress" class="text-link">Ver detalhes →</a></div>
+      <div class="progress-card">
+        <div class="progress-top"><div><strong id="progressPercent">0%</strong><span> do curso concluído</span></div><span id="progressCount">0 de 24 aulas</span></div>
+        <div class="progress-track"><div id="progressBar" class="progress-fill"></div></div>
+      </div>
+    </section>
+    <section class="section-block">
+      <div class="section-heading"><div><span class="eyebrow">THE COURSE</span><h2>Explore as unidades</h2><p>Selecione uma unidade para abrir o Student’s Book, Workbook e prática oral.</p></div></div>
+      <div class="unit-grid" id="unitGrid"></div>
+    </section>
+    <section class="section-block feature-grid">
+      <article class="feature-card"><span class="feature-icon">Aa</span><h3>Language focus</h3><p>Espaço para gramática, vocabulário, exemplos e explicações em português.</p></article>
+      <article class="feature-card"><span class="feature-icon">✓</span><h3>Interactive practice</h3><p>Atividades com correção automática, feedback e novas tentativas.</p></article>
+      <article class="feature-card"><span class="feature-icon">◖</span><h3>Listening & video</h3><p>Players integrados, controle de velocidade e organização por unidade.</p></article>
+      <article class="feature-card"><span class="feature-icon">◉</span><h3>Conversation lab</h3><p>Perguntas guiadas para desenvolver fluência e confiança ao falar.</p></article>
+    </section>
+    <footer>AMERICAN ENGLISH FILE 1 · INDEPENDENT STUDY COMPANION</footer>
+  </main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="app.js" defer></script>
+</body>
+</html>
