@@ -53,3 +53,17 @@
 .prompt-row p{font-size:11px;color:var(--muted);margin:4px 0}
 @media(max-width:720px){.grammar-grid{grid-template-columns:1fr}.vocab-row,.chunk-row{grid-template-columns:1fr;gap:5px}.media-entry>summary{grid-template-columns:60px minmax(0,1fr) 18px;padding:10px}.track-number{font-size:10px;padding:7px}.quiz-result{display:block;margin:10px 0 0}}
 @media print{.tabs,.lesson-actions,.action-btn,.secondary-btn{display:none!important}.media-entry:not([open]) .media-entry-body{display:none}.panel,.grammar-card{break-inside:avoid}}
+
+
+/* Exercise layout fix: keep question text, radio controls and options aligned */
+.practice-q > .question-label{display:block;font-weight:700;font-size:13px;line-height:1.5;margin:0 0 10px}
+.practice-q .option-list{display:grid;grid-template-columns:1fr;gap:8px}
+.practice-q .option{display:flex;flex-direction:row;align-items:flex-start;justify-content:flex-start;gap:10px;width:100%;min-width:0;padding:11px 13px;margin:0;text-align:left;line-height:1.45;background:var(--surface2)}
+.practice-q .option input[type="radio"]{display:block;flex:0 0 17px;width:17px;height:17px;min-width:17px;margin:2px 0 0;accent-color:var(--accent)}
+.practice-q .option input[type="radio"] + span{min-width:0;flex:1}
+.practice-q .answer-input{display:block;width:100%;min-height:44px;padding:11px 12px}
+.practice-q .feedback{line-height:1.5;overflow-wrap:anywhere}
+.quiz .action-btn{margin-top:12px}
+.quiz-result{vertical-align:middle}
+@media(min-width:721px){.practice-q .option-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.practice-q .option{padding:12px}.practice-q .option-list{grid-template-columns:1fr}}
