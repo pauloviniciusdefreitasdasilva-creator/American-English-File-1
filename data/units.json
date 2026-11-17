@@ -1,0 +1,755 @@
+{
+  "course": "American English File 1",
+  "level": "Elementary",
+  "unitCount": 12,
+  "lessonTypes": [
+    "Student’s Book",
+    "Workbook"
+  ],
+  "units": [
+    {
+      "id": 1,
+      "title": "Unit 1",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Unit 2",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Unit 3",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Unit 4",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Unit 5",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Unit 6",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Unit 7",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Unit 8",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Unit 9",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Unit 10",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Unit 11",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Unit 12",
+      "subtitle": "Elementary English",
+      "status": "structure-ready-content-pending",
+      "lessons": [
+        "Student’s Book",
+        "Workbook"
+      ],
+      "conversation": [
+        {
+          "title": "Warm-up",
+          "prompt": "Introduce yourself and share a few details about your everyday life."
+        },
+        {
+          "title": "Personal experience",
+          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+        },
+        {
+          "title": "Preferences",
+          "prompt": "Talk about things you like, dislike, and would like to try."
+        },
+        {
+          "title": "Role-play",
+          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+        },
+        {
+          "title": "Fluency challenge",
+          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
+        }
+      ],
+      "practice": [
+        {
+          "type": "choice",
+          "question": "Choose the correct form: I ___ a student.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "explanation": "Use am with I."
+        },
+        {
+          "type": "choice",
+          "question": "Choose the correct question word: ___ do you live?",
+          "options": [
+            "Where",
+            "Who",
+            "How many"
+          ],
+          "answer": 0,
+          "explanation": "Where asks about a place."
+        },
+        {
+          "type": "text",
+          "question": "Write one complete sentence about yourself.",
+          "accepted": [],
+          "explanation": "Open response: check word order, capitalization and punctuation."
+        }
+      ]
+    }
+  ]
+}
