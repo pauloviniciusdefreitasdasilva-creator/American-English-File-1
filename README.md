@@ -1,39 +1,44 @@
 # American English File 1 — Interactive Elementary Companion
 
-Responsive GitHub Pages project for a 12-unit Elementary course companion.
+A responsive GitHub Pages course companion built from the uploaded **AEF1_Curso_Completo.html** source.
 
-## Included in this first publication
-- Mobile-first layout for iPhone, iPad and desktop.
-- Light/dark theme switch.
-- 12-unit navigation and search.
-- Student's Book / Workbook study areas.
-- Lesson completion tracking, saved locally in the browser.
-- Notes per unit, print-friendly study view.
-- Interactive practice engine with instant feedback and retry.
-- Conversation practice area for every unit.
-- Media library with local audio/video players, playback speed control and clear missing-file states.
+## Integrated source content
 
-## Important content and media status
-The original uploaded HTML is approximately 228 MB and contains embedded media. GitHub rejects individual files over 100 MB, and GitHub Pages has a 1 GB published-site limit. The original full archive is larger still. This repository therefore does **not** pretend that the original 358 audio tracks, 42 videos, worksheets, or complete textbook lesson content have been uploaded.
+- All **12 units**, with their source titles, subtitles and themes.
+- Student's Book and Workbook areas for every unit.
+- Grammar Lab: source explanations, forms, bilingual examples, usage notes and common-error corrections.
+- Vocabulary: 10 source entries per unit with Portuguese meanings and bilingual examples.
+- Useful English chunks: 5 expressions per unit with meanings, use cases and examples.
+- **144 source-based practice questions** (6 Student's Book + 6 Workbook per unit), with automatic feedback and retry.
+- Unit-specific Conversation Lab prompts built from the unit's actual theme, grammar and expressions.
+- Source lesson schedules for Student's Book and Workbook.
+- **358 audio track guides** with section labels, focus and listening-stage prompts.
+- **43 video guides** with titles, categories and guided viewing questions.
+- iPhone/iPad responsive layout, light/dark theme, local progress, local notes and print-friendly lesson view.
 
-The original source describes 12 units and 24 lesson sections (Student's Book + Workbook), 358 audio tracks, 42 videos and 12 practice worksheets. The actual media files and licensed source material must be added as appropriately sized, authorized files before the media player can play them.
+## Media files: important distinction
 
-## Add media
-Place authorized files under:
-- `media/audio/` — MP3, M4A or OGG
-- `media/video/` — MP4 or WebM
+The audio/video **catalogue and guided questions are integrated**, but the MP3/MP4 binary files are not yet stored in this repository. The original HTML is about 228 MB and the source archive is much larger; GitHub's normal file upload limit is 100 MB per file. The players point to these locations:
 
-Then update `data/media.json` with each file's relative path, title and unit. Do not upload copyrighted course materials publicly unless you have permission to redistribute them.
+- `media/audio/<filename>`
+- `media/video/<filename>`
 
-## Publish with GitHub Pages
-1. Open repository **Settings → Pages**.
+Add only media you are authorized to redistribute. Once a file is uploaded at its matching path, its player can load it; missing files display a clear unavailable status. The app does not redirect to YouTube.
+
+## Run / publish
+
+1. Open this repository's **Settings → Pages**.
 2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select branch **main**, folder **/(root)**, then Save.
-4. Wait for GitHub Pages to publish. The public URL will appear in the same section.
+3. Select `main` and `/(root)`, then Save.
+4. Wait for GitHub Pages to publish the site.
 
-## Files
-- `index.html` — app shell
-- `styles.css` — responsive design and themes
-- `app.js` — navigation, progress, notes, quiz and media controls
-- `data/units.json` — 12-unit structure and original conversation prompts
-- `data/media.json` — media manifest (initially empty)
+## Project structure
+
+- `index.html` — responsive course app shell
+- `styles.css` — layout, iOS/iPad responsiveness and themes
+- `app.js` — unit rendering, practice correction, progress, notes and media players
+- `data/units.json` — source-derived unit curriculum
+- `data/media.json` — 358 audio and 43 video guides
+- `media/audio/` and `media/video/` — locations for authorized media binaries
+
+Progress and notes are stored locally in the current browser and do not synchronize between devices.
