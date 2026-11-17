@@ -1,753 +1,4759 @@
 {
   "course": "American English File 1",
+  "edition": "Third Edition",
   "level": "Elementary",
   "unitCount": 12,
   "lessonTypes": [
     "Student’s Book",
     "Workbook"
   ],
+  "source": "Extracted from the uploaded AEF1_Curso_Completo.html source.",
   "units": [
     {
       "id": 1,
-      "title": "Unit 1",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "Welcome to the class",
+      "subtitle": "One world · What’s your email?",
+      "theme": "Introductions, countries, classroom language and contact details",
+      "grammar": [
+        {
+          "title": "BE: affirmative and negative",
+          "explanation": "Use be to identify people, say where they are from, and give basic information.",
+          "form": "I am / You are / He is / She is / It is / We are / They are. Negative: am not, isn’t, aren’t. Contractions: I’m, you’re, he’s, she’s, it’s, we’re, they’re.",
+          "examples": "I’m from Brazil. / She isn’t a teacher.",
+          "translation": "Eu sou do Brasil. / Ela não é professora.",
+          "usage": "Use be with a subject; do not add do/does to be in the present.",
+          "commonError": "She not is here.",
+          "correction": "She isn’t here.",
+          "errorExplanation": "The negative particle follows the correct form of be."
+        },
+        {
+          "title": "Subject pronouns",
+          "explanation": "Use a subject pronoun instead of repeating a person or thing as the subject.",
+          "form": "I, you, he, she, it, we, they. Use he for a man/boy, she for a woman/girl, it for a thing/animal when sex is irrelevant, we for “I + others”.",
+          "examples": "Maria is a student. She is in class. / Tom and I are friends. We are friends.",
+          "translation": "Maria é estudante. Ela está na aula. / Tom e eu somos amigos. Nós somos amigos.",
+          "usage": "The subject pronoun normally comes before the verb.",
+          "commonError": "Me am a student.",
+          "correction": "I am a student.",
+          "errorExplanation": "I is the subject form; me is the object form."
+        },
+        {
+          "title": "Possessive adjectives",
+          "explanation": "Show who something belongs to; they come directly before a noun.",
+          "form": "my, your, his, her, its, our, their + noun.",
+          "examples": "This is my book. / Their teacher is nice.",
+          "translation": "Este é meu livro. / O professor deles é simpático.",
+          "usage": "Possessive adjectives do not change for plural nouns: my book, my books.",
+          "commonError": "She is my sister. Her name is Ana. → She is my sister. She name is Ana.",
+          "correction": "Her name is Ana.",
+          "errorExplanation": "Use her before the noun name."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "hello",
+          "meaning": "olá / oi",
+          "example": "Hello, I’m Ana.",
+          "translation": "Olá, sou Ana."
+        },
+        {
+          "word": "goodbye",
+          "meaning": "tchau / adeus",
+          "example": "Goodbye! See you tomorrow.",
+          "translation": "Tchau! Até amanhã."
+        },
+        {
+          "word": "first name",
+          "meaning": "nome",
+          "example": "My first name is Lucas.",
+          "translation": "Meu nome é Lucas."
+        },
+        {
+          "word": "last name",
+          "meaning": "sobrenome",
+          "example": "How do you spell your last name?",
+          "translation": "Como se soletra seu sobrenome?"
+        },
+        {
+          "word": "country",
+          "meaning": "país",
+          "example": "Brazil is a large country.",
+          "translation": "O Brasil é um país grande."
+        },
+        {
+          "word": "nationality",
+          "meaning": "nacionalidade",
+          "example": "Her nationality is Brazilian.",
+          "translation": "A nacionalidade dela é brasileira."
+        },
+        {
+          "word": "classroom",
+          "meaning": "sala de aula",
+          "example": "The classroom is on the second floor.",
+          "translation": "A sala de aula fica no segundo andar."
+        },
+        {
+          "word": "board",
+          "meaning": "quadro",
+          "example": "Please look at the board.",
+          "translation": "Por favor, olhe para o quadro."
+        },
+        {
+          "word": "notebook",
+          "meaning": "caderno",
+          "example": "Open your notebook, please.",
+          "translation": "Abra seu caderno, por favor."
+        },
+        {
+          "word": "spell",
+          "meaning": "soletrar",
+          "example": "Can you spell your name?",
+          "translation": "Você pode soletrar seu nome?"
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "Nice to meet you.",
+          "meaning": "Prazer em conhecer você.",
+          "use": "When meeting someone for the first time.",
+          "example": "Hi, I’m Leo. Nice to meet you.",
+          "translation": "Oi, sou Leo. Prazer em conhecer você."
+        },
+        {
+          "phrase": "Where are you from?",
+          "meaning": "De onde você é?",
+          "use": "Ask about someone’s country or hometown.",
+          "example": "Where are you from? — I’m from Recife.",
+          "translation": "De onde você é? — Sou de Recife."
+        },
+        {
+          "phrase": "How do you spell that?",
+          "meaning": "Como se soletra isso?",
+          "use": "Ask for spelling of a name or word.",
+          "example": "It’s Ribeiro. — How do you spell that?",
+          "translation": "É Ribeiro. — Como se soletra?"
+        },
+        {
+          "phrase": "What’s your email address?",
+          "meaning": "Qual é seu endereço de e-mail?",
+          "use": "Ask for contact details.",
+          "example": "What’s your email address?",
+          "translation": "Qual é seu endereço de e-mail?"
+        },
+        {
+          "phrase": "Sorry, can you repeat that?",
+          "meaning": "Desculpe, pode repetir?",
+          "use": "Ask someone to say something again.",
+          "example": "Sorry, can you repeat that, please?",
+          "translation": "Desculpe, pode repetir, por favor?"
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "___ am from Brazil.",
+            "options": [
+              "I",
+              "He",
+              "They",
+              "She"
+            ],
+            "answer": "I",
+            "explanation": "Use I with am."
+          },
+          {
+            "type": "mc",
+            "question": "Maria is my friend. ___ is from Peru.",
+            "options": [
+              "He",
+              "She",
+              "It",
+              "They"
+            ],
+            "answer": "She",
+            "explanation": "Maria is one female person."
+          },
+          {
+            "type": "mc",
+            "question": "They ___ in English class.",
+            "options": [
+              "is",
+              "am",
+              "are",
+              "be"
+            ],
+            "answer": "are",
+            "explanation": "They takes are."
+          },
+          {
+            "type": "mc",
+            "question": "This is Ana. ___ teacher is Mr. Lee.",
+            "options": [
+              "His",
+              "Her",
+              "Their",
+              "Our"
+            ],
+            "answer": "Her",
+            "explanation": "Her shows possession for Ana."
+          },
+          {
+            "type": "fill",
+            "question": "I ___ a student.",
+            "options": [],
+            "answer": "am",
+            "explanation": "The first-person singular form is am."
+          },
+          {
+            "type": "fill",
+            "question": "We ___ not from Canada.",
+            "options": [],
+            "answer": "are|aren’t|are not",
+            "explanation": "We are not / We aren’t are both possible."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Choose the correct negative: “He is tired.”",
+            "options": [
+              "He not is tired.",
+              "He isn’t tired.",
+              "He don’t tired.",
+              "He aren’t tired."
+            ],
+            "answer": "He isn’t tired.",
+            "explanation": "Put not after is, usually as isn’t."
+          },
+          {
+            "type": "mc",
+            "question": "Tom and I = ___",
+            "options": [
+              "they",
+              "we",
+              "you",
+              "he"
+            ],
+            "answer": "we",
+            "explanation": "We includes the speaker and another person."
+          },
+          {
+            "type": "mc",
+            "question": "___ name is Carlos. (I)",
+            "options": [
+              "My",
+              "Me",
+              "I",
+              "Mine"
+            ],
+            "answer": "My",
+            "explanation": "A possessive adjective comes before name."
+          },
+          {
+            "type": "mc",
+            "question": "“Are you from Chile?” — “Yes, ___.”",
+            "options": [
+              "I am",
+              "I do",
+              "I’m do",
+              "yes am"
+            ],
+            "answer": "I am",
+            "explanation": "Short answer: Yes, I am."
+          },
+          {
+            "type": "fill",
+            "question": "She ___ my teacher.",
+            "options": [],
+            "answer": "is",
+            "explanation": "She takes is."
+          },
+          {
+            "type": "fill",
+            "question": "What ___ your last name?",
+            "options": [],
+            "answer": "is",
+            "explanation": "What is your last name?"
+          }
+        ]
+      },
+      "videoTopics": [
+        "1A Welcome to the class",
+        "1B One world",
+        "1C What_s your email",
+        "P1 Practical English Episode 1 Checking in"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "1B One world.docx",
+          "url": "../assets/video-practice/practice/1b-one-world.docx",
+          "key": "../assets/video-practice/answer-key/1b-one-world.docx",
+          "code": "1B"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "Introductions and classroom",
+          "prompt": "Listen for names, countries, and classroom phrases. After viewing, introduce yourself in three sentences.",
+          "name": "1A Welcome to the class",
+          "code": "1A"
+        },
+        {
+          "title": "Countries and identity",
+          "prompt": "Notice how people identify where they are from. Compare two countries using information you can actually see or hear.",
+          "name": "1B One world",
+          "code": "1B"
+        },
+        {
+          "title": "Email and contact details",
+          "prompt": "Notice how an email address is said or spelled. Practise asking for repetition and spelling.",
+          "name": "1C What_s your email",
+          "code": "1C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · Welcome to the class",
+          "prompt": "Introduce the topic “Welcome to the class”. What do you already know about introductions, countries, classroom language and contact details? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with introductions, countries, classroom language and contact details. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · BE: affirmative and negative",
+          "prompt": "Use the target language “BE: affirmative and negative” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “Nice to meet you.”, “Where are you from?”, “How do you spell that?”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about introductions, countries, classroom language and contact details. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about Welcome to the class. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 2,
-      "title": "Unit 2",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "Are you neat or messy?",
+      "subtitle": "Made in America · Slow down!",
+      "theme": "Personal objects, colors, adjectives, rules and feelings",
+      "grammar": [
+        {
+          "title": "Singular and plural nouns",
+          "explanation": "Use singular nouns for one item and plural nouns for more than one.",
+          "form": "Most nouns: +s (book/books). Endings -s, -sh, -ch, -x: +es. Consonant + y: y → ies. Irregular: man/men, woman/women, child/children.",
+          "examples": "one watch, two watches / one child, three children",
+          "translation": "um relógio, dois relógios / uma criança, três crianças",
+          "usage": "Use a/an with a singular countable noun, not with a plural.",
+          "commonError": "two watchs",
+          "correction": "two watches",
+          "errorExplanation": "Words ending in -ch generally take -es."
+        },
+        {
+          "title": "Adjectives and word order",
+          "explanation": "Adjectives describe nouns and usually go before the noun or after be.",
+          "form": "a + adjective + noun; subject + be + adjective. Adjectives do not take plural -s.",
+          "examples": "It’s a small bag. / My shoes are comfortable.",
+          "translation": "É uma bolsa pequena. / Meus sapatos são confortáveis.",
+          "usage": "In English, adjectives do not agree in number or gender.",
+          "commonError": "My shoes are comfortables.",
+          "correction": "My shoes are comfortable.",
+          "errorExplanation": "The adjective remains unchanged."
+        },
+        {
+          "title": "Imperatives and let’s",
+          "explanation": "Use imperatives for instructions; use let’s to suggest an activity together.",
+          "form": "Base verb: Open the door. Negative: Don’t touch it. Let’s + base verb: Let’s go.",
+          "examples": "Please sit down. / Let’s take a break.",
+          "translation": "Por favor, sente-se. / Vamos fazer uma pausa.",
+          "usage": "Use don’t + base verb for a negative command.",
+          "commonError": "Don’t to run.",
+          "correction": "Don’t run.",
+          "errorExplanation": "Do not add to after don’t."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "wallet",
+          "meaning": "carteira",
+          "example": "My wallet is in my bag.",
+          "translation": "Minha carteira está na bolsa."
+        },
+        {
+          "word": "keys",
+          "meaning": "chaves",
+          "example": "Where are my keys?",
+          "translation": "Onde estão minhas chaves?"
+        },
+        {
+          "word": "glasses",
+          "meaning": "óculos",
+          "example": "I need my glasses.",
+          "translation": "Preciso dos meus óculos."
+        },
+        {
+          "word": "watch",
+          "meaning": "relógio de pulso",
+          "example": "This watch is old.",
+          "translation": "Este relógio é antigo."
+        },
+        {
+          "word": "cheap",
+          "meaning": "barato",
+          "example": "The T-shirt is cheap.",
+          "translation": "A camiseta é barata."
+        },
+        {
+          "word": "expensive",
+          "meaning": "caro",
+          "example": "That phone is expensive.",
+          "translation": "Aquele celular é caro."
+        },
+        {
+          "word": "tidy",
+          "meaning": "organizado",
+          "example": "Her desk is always tidy.",
+          "translation": "A mesa dela está sempre organizada."
+        },
+        {
+          "word": "messy",
+          "meaning": "bagunçado",
+          "example": "My bedroom is messy.",
+          "translation": "Meu quarto está bagunçado."
+        },
+        {
+          "word": "thirsty",
+          "meaning": "com sede",
+          "example": "I’m thirsty.",
+          "translation": "Estou com sede."
+        },
+        {
+          "word": "worried",
+          "meaning": "preocupado",
+          "example": "He’s worried about the test.",
+          "translation": "Ele está preocupado com a prova."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "What’s it like?",
+          "meaning": "Como é?",
+          "use": "Ask for a description or opinion.",
+          "example": "What’s your new phone like?",
+          "translation": "Como é seu celular novo?"
+        },
+        {
+          "phrase": "It’s made of…",
+          "meaning": "É feito de…",
+          "use": "Describe a material.",
+          "example": "The ring is made of gold.",
+          "translation": "O anel é feito de ouro."
+        },
+        {
+          "phrase": "Be careful!",
+          "meaning": "Cuidado!",
+          "use": "Warn someone about danger.",
+          "example": "Be careful with that glass.",
+          "translation": "Cuidado com esse copo."
+        },
+        {
+          "phrase": "Slow down.",
+          "meaning": "Vá mais devagar.",
+          "use": "Ask someone to reduce speed.",
+          "example": "You’re walking too fast. Slow down!",
+          "translation": "Você está andando rápido demais. Vá mais devagar!"
+        },
+        {
+          "phrase": "Let’s have a look.",
+          "meaning": "Vamos dar uma olhada.",
+          "use": "Suggest checking or examining something.",
+          "example": "Let’s have a look at the menu.",
+          "translation": "Vamos dar uma olhada no cardápio."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "Plural of “watch” is…",
+            "options": [
+              "watchs",
+              "watches",
+              "watchies",
+              "watch"
+            ],
+            "answer": "watches",
+            "explanation": "Nouns ending in -ch usually take -es."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the correct sentence.",
+            "options": [
+              "The bags are expensives.",
+              "The bags are expensive.",
+              "The bags expensive are.",
+              "The bag are expensive."
+            ],
+            "answer": "The bags are expensive.",
+            "explanation": "Adjectives do not take plural -s."
+          },
+          {
+            "type": "mc",
+            "question": "A negative command is…",
+            "options": [
+              "No touch it.",
+              "Don’t touch it.",
+              "Don’t to touch it.",
+              "Doesn’t touch it."
+            ],
+            "answer": "Don’t touch it.",
+            "explanation": "Don’t + base verb."
+          },
+          {
+            "type": "mc",
+            "question": "“One child, two ___.”",
+            "options": [
+              "childs",
+              "childes",
+              "children",
+              "childrens"
+            ],
+            "answer": "children",
+            "explanation": "Child has an irregular plural."
+          },
+          {
+            "type": "fill",
+            "question": "Let’s ___ a break.",
+            "options": [],
+            "answer": "take",
+            "explanation": "Let’s + base verb."
+          },
+          {
+            "type": "fill",
+            "question": "My room isn’t tidy. It’s ___.",
+            "options": [],
+            "answer": "messy",
+            "explanation": "Messy is the opposite of tidy."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Choose the correct phrase.",
+            "options": [
+              "a expensive phone",
+              "an expensive phone",
+              "expensive a phone",
+              "an phone expensive"
+            ],
+            "answer": "an expensive phone",
+            "explanation": "Expensive begins with a vowel sound; an precedes it."
+          },
+          {
+            "type": "mc",
+            "question": "Which is a plural noun?",
+            "options": [
+              "a key",
+              "a watch",
+              "glasses",
+              "a wallet"
+            ],
+            "answer": "glasses",
+            "explanation": "Glasses is plural in this meaning."
+          },
+          {
+            "type": "mc",
+            "question": "Complete: “___ use your phone in the exam.”",
+            "options": [
+              "Don’t",
+              "Doesn’t",
+              "Not",
+              "No"
+            ],
+            "answer": "Don’t",
+            "explanation": "Negative imperative uses don’t."
+          },
+          {
+            "type": "mc",
+            "question": "Which adjective means “organized”?",
+            "options": [
+              "messy",
+              "tidy",
+              "worried",
+              "thirsty"
+            ],
+            "answer": "tidy",
+            "explanation": "Tidy means neat or organized."
+          },
+          {
+            "type": "fill",
+            "question": "One person, three ___.",
+            "options": [],
+            "answer": "people",
+            "explanation": "Person has irregular plural people."
+          },
+          {
+            "type": "fill",
+            "question": "These shoes ___ comfortable.",
+            "options": [],
+            "answer": "are",
+            "explanation": "Plural subject takes are."
+          }
+        ]
+      },
+      "videoTopics": [
+        "2A Are you neat or messy",
+        "2B Made in America",
+        "2C Slow down!"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "2B Made in America.docx",
+          "url": "../assets/video-practice/practice/2b-made-in-america.docx",
+          "key": "../assets/video-practice/answer-key/2b-made-in-america.docx",
+          "code": "2B"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "Neat or messy?",
+          "prompt": "Observe the objects and spaces shown. Which details support a description of tidy or messy?",
+          "name": "2A Are you neat or messy",
+          "code": "2A"
+        },
+        {
+          "title": "Made in America",
+          "prompt": "Identify products and origin information that the video explicitly presents. Discuss where everyday items are made.",
+          "name": "2B Made in America",
+          "code": "2B"
+        },
+        {
+          "title": "Slow down!",
+          "prompt": "Pay attention to instructions and warnings. Which imperative forms or safety phrases do you notice?",
+          "name": "2C Slow down!",
+          "code": "2C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · Are you neat or messy?",
+          "prompt": "Introduce the topic “Are you neat or messy?”. What do you already know about personal objects, colors, adjectives, rules and feelings? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with personal objects, colors, adjectives, rules and feelings. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Singular and plural nouns",
+          "prompt": "Use the target language “Singular and plural nouns” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “What’s it like?”, “It’s made of…”, “Be careful!”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about personal objects, colors, adjectives, rules and feelings. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about Are you neat or messy?. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 3,
-      "title": "Unit 3",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "America: good and bad",
+      "subtitle": "9 to 5 · Love me, love my dog",
+      "theme": "Opinions, everyday routines, jobs and animals",
+      "grammar": [
+        {
+          "title": "Simple present: affirmative and negative",
+          "explanation": "Use the simple present for habits, routines and general facts.",
+          "form": "I/you/we/they + base verb; he/she/it + verb-s. Negative: don’t/doesn’t + base verb.",
+          "examples": "I work at home. / She doesn’t drive.",
+          "translation": "Eu trabalho em casa. / Ela não dirige.",
+          "usage": "After does/doesn’t, use the base verb without -s.",
+          "commonError": "He doesn’t works here.",
+          "correction": "He doesn’t work here.",
+          "errorExplanation": "Does carries the third-person marking."
+        },
+        {
+          "title": "Simple present questions",
+          "explanation": "Use do/does to ask about routines, preferences and facts.",
+          "form": "Do + I/you/we/they + base verb? Does + he/she/it + base verb? Short answers: Yes, I do. / No, she doesn’t.",
+          "examples": "Do you like dogs? / Does he work nights?",
+          "translation": "Você gosta de cães? / Ele trabalha à noite?",
+          "usage": "Do not use do with be; be forms its own questions.",
+          "commonError": "Does she likes coffee?",
+          "correction": "Does she like coffee?",
+          "errorExplanation": "The main verb remains in the base form."
+        },
+        {
+          "title": "Word order and question words",
+          "explanation": "Question words request specific information and normally come before do/does.",
+          "form": "What/Where/When/Why/Who/How + do/does + subject + base verb? Adverbs of frequency usually precede a main verb.",
+          "examples": "Where do you work? / He usually gets up at seven.",
+          "translation": "Onde você trabalha? / Ele geralmente se levanta às sete.",
+          "usage": "With be, the adverb usually follows be: She is always early.",
+          "commonError": "Where you do work?",
+          "correction": "Where do you work?",
+          "errorExplanation": "Place do/does between the question word and subject."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "get up",
+          "meaning": "levantar-se",
+          "example": "I get up at seven.",
+          "translation": "Eu me levanto às sete."
+        },
+        {
+          "word": "commute",
+          "meaning": "deslocar-se para o trabalho",
+          "example": "She commutes by train.",
+          "translation": "Ela vai ao trabalho de trem."
+        },
+        {
+          "word": "colleague",
+          "meaning": "colega de trabalho",
+          "example": "My colleague is very helpful.",
+          "translation": "Meu colega de trabalho ajuda muito."
+        },
+        {
+          "word": "salary",
+          "meaning": "salário",
+          "example": "He has a good salary.",
+          "translation": "Ele tem um bom salário."
+        },
+        {
+          "word": "shift",
+          "meaning": "turno",
+          "example": "I work the night shift.",
+          "translation": "Trabalho no turno da noite."
+        },
+        {
+          "word": "vet",
+          "meaning": "veterinário",
+          "example": "The vet checked my dog.",
+          "translation": "O veterinário examinou meu cachorro."
+        },
+        {
+          "word": "pet",
+          "meaning": "animal de estimação",
+          "example": "They have two pets.",
+          "translation": "Eles têm dois animais de estimação."
+        },
+        {
+          "word": "friendly",
+          "meaning": "amigável",
+          "example": "Our neighbors are friendly.",
+          "translation": "Nossos vizinhos são amigáveis."
+        },
+        {
+          "word": "boring",
+          "meaning": "entediante",
+          "example": "The meeting is boring.",
+          "translation": "A reunião é entediante."
+        },
+        {
+          "word": "opinion",
+          "meaning": "opinião",
+          "example": "In my opinion, the film is great.",
+          "translation": "Na minha opinião, o filme é ótimo."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "In my opinion…",
+          "meaning": "Na minha opinião…",
+          "use": "Introduce a personal view.",
+          "example": "In my opinion, cats are easier to care for.",
+          "translation": "Na minha opinião, é mais fácil cuidar de gatos."
+        },
+        {
+          "phrase": "What do you do?",
+          "meaning": "O que você faz?",
+          "use": "Ask about someone’s job.",
+          "example": "What do you do? — I’m a designer.",
+          "translation": "O que você faz? — Sou designer."
+        },
+        {
+          "phrase": "I work from… to…",
+          "meaning": "Eu trabalho das… às…",
+          "use": "Describe work hours.",
+          "example": "I work from nine to six.",
+          "translation": "Trabalho das nove às seis."
+        },
+        {
+          "phrase": "How often do you…?",
+          "meaning": "Com que frequência você…?",
+          "use": "Ask about a habit.",
+          "example": "How often do you exercise?",
+          "translation": "Com que frequência você se exercita?"
+        },
+        {
+          "phrase": "I’m not sure.",
+          "meaning": "Não tenho certeza.",
+          "use": "Express uncertainty politely.",
+          "example": "I’m not sure, but I think it’s true.",
+          "translation": "Não tenho certeza, mas acho que é verdade."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "She ___ in a hospital.",
+            "options": [
+              "work",
+              "works",
+              "working",
+              "do work"
+            ],
+            "answer": "works",
+            "explanation": "He/she/it takes -s in affirmative statements."
+          },
+          {
+            "type": "mc",
+            "question": "They ___ like coffee.",
+            "options": [
+              "doesn’t",
+              "don’t",
+              "aren’t",
+              "isn’t"
+            ],
+            "answer": "don’t",
+            "explanation": "They uses don’t for simple-present negatives."
+          },
+          {
+            "type": "mc",
+            "question": "___ your brother work here?",
+            "options": [
+              "Do",
+              "Does",
+              "Is",
+              "Are"
+            ],
+            "answer": "Does",
+            "explanation": "Brother = he, so use does."
+          },
+          {
+            "type": "mc",
+            "question": "Where ___ you live?",
+            "options": [
+              "are",
+              "does",
+              "do",
+              "is"
+            ],
+            "answer": "do",
+            "explanation": "Use do with you + base verb."
+          },
+          {
+            "type": "fill",
+            "question": "He doesn’t ___ TV in the morning.",
+            "options": [],
+            "answer": "watch",
+            "explanation": "After doesn’t, use base verb."
+          },
+          {
+            "type": "fill",
+            "question": "What time do you ___ up?",
+            "options": [],
+            "answer": "get",
+            "explanation": "The chunk is get up."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Choose the correct question.",
+            "options": [
+              "Where she works?",
+              "Where does she work?",
+              "Where does she works?",
+              "Where do she work?"
+            ],
+            "answer": "Where does she work?",
+            "explanation": "Does + subject + base verb."
+          },
+          {
+            "type": "mc",
+            "question": "“What do you do?” asks about…",
+            "options": [
+              "your address",
+              "your job",
+              "your age",
+              "your nationality"
+            ],
+            "answer": "your job",
+            "explanation": "This is a common question about occupation."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the natural word order.",
+            "options": [
+              "He gets usually up at six.",
+              "Usually he up gets at six.",
+              "He usually gets up at six.",
+              "He gets up usually at six always."
+            ],
+            "answer": "He usually gets up at six.",
+            "explanation": "Frequency adverbs usually precede the main verb."
+          },
+          {
+            "type": "mc",
+            "question": "A person who treats animals is a…",
+            "options": [
+              "pilot",
+              "vet",
+              "chef",
+              "lawyer"
+            ],
+            "answer": "vet",
+            "explanation": "A vet is an animal doctor."
+          },
+          {
+            "type": "fill",
+            "question": "___ she work on Saturdays?",
+            "options": [],
+            "answer": "Does",
+            "explanation": "Does she work…?"
+          },
+          {
+            "type": "fill",
+            "question": "I ___ from home twice a week.",
+            "options": [],
+            "answer": "work",
+            "explanation": "Use base verb with I."
+          }
+        ]
+      },
+      "videoTopics": [
+        "3A America the good and the bad",
+        "3B 9 to 5",
+        "3C Love me, love my dog",
+        "P2 Practical English Episode 2 Buying a coffee"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "3A America the good and the bad.docx",
+          "url": "../assets/video-practice/practice/3a-america-the-good-and-the-bad.docx",
+          "key": "../assets/video-practice/answer-key/3a-america-the-good-and-the-bad.docx",
+          "code": "3A"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "America: the good and the bad",
+          "prompt": "Separate opinions from facts. Record one positive and one negative point actually presented.",
+          "name": "3A America the good and the bad",
+          "code": "3A"
+        },
+        {
+          "title": "Work routines",
+          "prompt": "Notice job roles, schedules, and regular tasks. Summarize one person’s routine using the simple present.",
+          "name": "3B 9 to 5",
+          "code": "3B"
+        },
+        {
+          "title": "People and pets",
+          "prompt": "Notice how people describe their pets and preferences. Prepare a short description of an animal.",
+          "name": "3C Love me, love my dog",
+          "code": "3C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · America: good and bad",
+          "prompt": "Introduce the topic “America: good and bad”. What do you already know about opinions, everyday routines, jobs and animals? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with opinions, everyday routines, jobs and animals. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Simple present: affirmative and negative",
+          "prompt": "Use the target language “Simple present: affirmative and negative” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “In my opinion…”, “What do you do?”, “I work from… to…”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about opinions, everyday routines, jobs and animals. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about America: good and bad. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 4,
-      "title": "Unit 4",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "Family photos",
+      "subtitle": "From morning to night · Blue Zones",
+      "theme": "Family, daily routines, time and healthy lifestyles",
+      "grammar": [
+        {
+          "title": "Possessive ’s and Whose",
+          "explanation": "Use ’s to show belonging and whose to ask about ownership.",
+          "form": "person + ’s + noun (Anna’s phone). Whose + noun + be…? Whose is this? Whose are those?",
+          "examples": "This is my brother’s car. / Whose keys are these?",
+          "translation": "Este é o carro do meu irmão. / De quem são estas chaves?",
+          "usage": "Use apostrophe-s for a singular owner; whose asks “de quem”.",
+          "commonError": "Who’s bag is this?",
+          "correction": "Whose bag is this?",
+          "errorExplanation": "Who’s means who is; whose is possessive."
+        },
+        {
+          "title": "Prepositions of time and place",
+          "explanation": "Use in/on/at to locate events in time and items/people in places.",
+          "form": "Time: at 7:00, on Monday, in July / in the morning. Place: at work, in a room, on a table.",
+          "examples": "I start work at nine. / The photo is on the wall.",
+          "translation": "Começo a trabalhar às nove. / A foto está na parede.",
+          "usage": "Learn common collocations; time prepositions do not translate one-to-one from Portuguese.",
+          "commonError": "in Monday",
+          "correction": "on Monday",
+          "errorExplanation": "Use on with days."
+        },
+        {
+          "title": "Adverbs of frequency",
+          "explanation": "Describe how often routines happen.",
+          "form": "always, usually, often, sometimes, hardly ever, never + main verb. With be: be + adverb.",
+          "examples": "We usually eat together. / She is never late.",
+          "translation": "Nós geralmente comemos juntos. / Ela nunca se atrasa.",
+          "usage": "Place the adverb before most main verbs, but after be.",
+          "commonError": "He goes always to bed early.",
+          "correction": "He always goes to bed early.",
+          "errorExplanation": "Frequency adverbs normally precede the main verb."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "parents",
+          "meaning": "pais",
+          "example": "My parents live nearby.",
+          "translation": "Meus pais moram perto."
+        },
+        {
+          "word": "siblings",
+          "meaning": "irmãos",
+          "example": "I have two siblings.",
+          "translation": "Tenho dois irmãos."
+        },
+        {
+          "word": "granddaughter",
+          "meaning": "neta",
+          "example": "Their granddaughter is six.",
+          "translation": "A neta deles tem seis anos."
+        },
+        {
+          "word": "get dressed",
+          "meaning": "vestir-se",
+          "example": "I get dressed after breakfast.",
+          "translation": "Eu me visto depois do café da manhã."
+        },
+        {
+          "word": "have a shower",
+          "meaning": "tomar banho",
+          "example": "He has a shower at night.",
+          "translation": "Ele toma banho à noite."
+        },
+        {
+          "word": "go to bed",
+          "meaning": "ir dormir",
+          "example": "They go to bed early.",
+          "translation": "Eles vão dormir cedo."
+        },
+        {
+          "word": "weekday",
+          "meaning": "dia útil",
+          "example": "I study on weekdays.",
+          "translation": "Eu estudo durante a semana."
+        },
+        {
+          "word": "healthy",
+          "meaning": "saudável",
+          "example": "Walking is a healthy habit.",
+          "translation": "Caminhar é um hábito saudável."
+        },
+        {
+          "word": "longevity",
+          "meaning": "longevidade",
+          "example": "Some communities are known for longevity.",
+          "translation": "Algumas comunidades são conhecidas pela longevidade."
+        },
+        {
+          "word": "routine",
+          "meaning": "rotina",
+          "example": "My morning routine is simple.",
+          "translation": "Minha rotina matinal é simples."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "What time do you…?",
+          "meaning": "A que horas você…?",
+          "use": "Ask about schedules.",
+          "example": "What time do you get up?",
+          "translation": "A que horas você se levanta?"
+        },
+        {
+          "phrase": "It belongs to…",
+          "meaning": "Pertence a…",
+          "use": "Explain ownership.",
+          "example": "This jacket belongs to my sister.",
+          "translation": "Esta jaqueta pertence à minha irmã."
+        },
+        {
+          "phrase": "I usually…",
+          "meaning": "Eu geralmente…",
+          "use": "Describe routine frequency.",
+          "example": "I usually cook dinner at home.",
+          "translation": "Eu geralmente preparo o jantar em casa."
+        },
+        {
+          "phrase": "Once a week",
+          "meaning": "Uma vez por semana",
+          "use": "State frequency.",
+          "example": "We call our grandparents once a week.",
+          "translation": "Ligamos para nossos avós uma vez por semana."
+        },
+        {
+          "phrase": "On the weekend",
+          "meaning": "No fim de semana",
+          "use": "Talk about weekend routines.",
+          "example": "I relax on the weekend.",
+          "translation": "Eu descanso no fim de semana."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "___ phone is this?",
+            "options": [
+              "Who’s",
+              "Whose",
+              "Who",
+              "Whom"
+            ],
+            "answer": "Whose",
+            "explanation": "Whose asks about possession."
+          },
+          {
+            "type": "mc",
+            "question": "The meeting is ___ Monday.",
+            "options": [
+              "at",
+              "in",
+              "on",
+              "by"
+            ],
+            "answer": "on",
+            "explanation": "Use on with days."
+          },
+          {
+            "type": "mc",
+            "question": "She ___ gets up at six. (100%)",
+            "options": [
+              "never",
+              "sometimes",
+              "always",
+              "hardly ever"
+            ],
+            "answer": "always",
+            "explanation": "Always means 100% frequency."
+          },
+          {
+            "type": "mc",
+            "question": "My ___ house is near here. (my parents)",
+            "options": [
+              "parents",
+              "parents’",
+              "parent’s",
+              "parents’s"
+            ],
+            "answer": "parents’",
+            "explanation": "Plural noun ending in s takes apostrophe after s."
+          },
+          {
+            "type": "fill",
+            "question": "I go to bed ___ 10:30.",
+            "options": [],
+            "answer": "at",
+            "explanation": "Use at with exact clock time."
+          },
+          {
+            "type": "fill",
+            "question": "He is ___ late. (0% frequency)",
+            "options": [],
+            "answer": "never",
+            "explanation": "Use never after be."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Choose the correct sentence.",
+            "options": [
+              "Whose is this keys?",
+              "Whose keys are these?",
+              "Who’s keys are these?",
+              "Whose these keys are?"
+            ],
+            "answer": "Whose keys are these?",
+            "explanation": "Whose + noun + be + this/these."
+          },
+          {
+            "type": "mc",
+            "question": "We have lunch ___ noon.",
+            "options": [
+              "in",
+              "on",
+              "at",
+              "for"
+            ],
+            "answer": "at",
+            "explanation": "Use at with noon."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the correct position.",
+            "options": [
+              "She drinks always tea.",
+              "She always drinks tea.",
+              "Always she drinks tea every.",
+              "She drinks tea always usually."
+            ],
+            "answer": "She always drinks tea.",
+            "explanation": "Frequency adverb precedes the main verb."
+          },
+          {
+            "type": "mc",
+            "question": "“Hardly ever” means…",
+            "options": [
+              "very often",
+              "almost never",
+              "every day",
+              "never ever with no exceptions"
+            ],
+            "answer": "almost never",
+            "explanation": "Hardly ever indicates very low frequency."
+          },
+          {
+            "type": "fill",
+            "question": "The picture is ___ the wall.",
+            "options": [],
+            "answer": "on",
+            "explanation": "Use on for a surface."
+          },
+          {
+            "type": "fill",
+            "question": "We visit them twice ___ month.",
+            "options": [],
+            "answer": "a|per",
+            "explanation": "Twice a month is the usual phrase."
+          }
+        ]
+      },
+      "videoTopics": [
+        "4A Family photos",
+        "4B From morning to night",
+        "4C Blue Zones"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "4C Blue Zones.docx",
+          "url": "../assets/video-practice/practice/4c-blue-zones.docx",
+          "key": null,
+          "code": "4C"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "Family photos",
+          "prompt": "Identify relationships mentioned or shown. Describe a family photo with possessive forms.",
+          "name": "4A Family photos",
+          "code": "4A"
+        },
+        {
+          "title": "From morning to night",
+          "prompt": "Put the daily activities you observe in time order. Retell the routine using frequency adverbs.",
+          "name": "4B From morning to night",
+          "code": "4B"
+        },
+        {
+          "title": "Blue Zones",
+          "prompt": "Record lifestyle habits that the source explicitly mentions. Discuss which habit would be easiest to adopt.",
+          "name": "4C Blue Zones",
+          "code": "4C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · Family photos",
+          "prompt": "Introduce the topic “Family photos”. What do you already know about family, daily routines, time and healthy lifestyles? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with family, daily routines, time and healthy lifestyles. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Possessive ’s and Whose",
+          "prompt": "Use the target language “Possessive ’s and Whose” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “What time do you…?”, “It belongs to…”, “I usually…”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about family, daily routines, time and healthy lifestyles. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about Family photos. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 5,
-      "title": "Unit 5",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "Vote for me!",
+      "subtitle": "A quiet life? · A city for all seasons",
+      "theme": "Abilities, city life, current activities and weather",
+      "grammar": [
+        {
+          "title": "Can / can’t",
+          "explanation": "Use can for ability or possibility and can’t for inability or impossibility.",
+          "form": "Subject + can/can’t + base verb. Questions: Can + subject + base verb? Short answers: Yes, I can. / No, I can’t.",
+          "examples": "She can drive. / Can you help me?",
+          "translation": "Ela sabe dirigir. / Você pode me ajudar?",
+          "usage": "Can is followed by the base form without to.",
+          "commonError": "He can to swim.",
+          "correction": "He can swim.",
+          "errorExplanation": "Never put to after can."
+        },
+        {
+          "title": "Present continuous",
+          "explanation": "Use for actions happening now or around now.",
+          "form": "am/is/are + verb-ing. Negative: am not/isn’t/aren’t + -ing. Questions: Are you working?",
+          "examples": "I’m studying right now. / They aren’t sleeping.",
+          "translation": "Estou estudando agora. / Eles não estão dormindo.",
+          "usage": "Choose -ing for an action in progress, not a routine.",
+          "commonError": "She is cook dinner.",
+          "correction": "She is cooking dinner.",
+          "errorExplanation": "Present continuous needs be + -ing."
+        },
+        {
+          "title": "Simple present vs present continuous",
+          "explanation": "Contrast regular habits/facts with actions in progress or temporary situations.",
+          "form": "Simple present: often/every day/usually. Present continuous: now/at the moment/this week.",
+          "examples": "He works downtown. / He’s working from home this week.",
+          "translation": "Ele trabalha no centro. / Ele está trabalhando de casa esta semana.",
+          "usage": "Some state verbs (like, know, want) are not normally continuous at this level.",
+          "commonError": "I am liking this song.",
+          "correction": "I like this song.",
+          "errorExplanation": "Use simple present for a general preference."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "vote",
+          "meaning": "votar",
+          "example": "You can vote for your favorite candidate.",
+          "translation": "Você pode votar em seu candidato favorito."
+        },
+        {
+          "word": "campaign",
+          "meaning": "campanha",
+          "example": "The campaign starts next week.",
+          "translation": "A campanha começa na próxima semana."
+        },
+        {
+          "word": "quiet",
+          "meaning": "silencioso / tranquilo",
+          "example": "I want a quiet neighborhood.",
+          "translation": "Quero um bairro tranquilo."
+        },
+        {
+          "word": "crowded",
+          "meaning": "lotado",
+          "example": "The bus is crowded.",
+          "translation": "O ônibus está lotado."
+        },
+        {
+          "word": "traffic",
+          "meaning": "trânsito",
+          "example": "There is a lot of traffic today.",
+          "translation": "Há muito trânsito hoje."
+        },
+        {
+          "word": "rainy",
+          "meaning": "chuvoso",
+          "example": "It’s rainy this afternoon.",
+          "translation": "Está chuvoso nesta tarde."
+        },
+        {
+          "word": "windy",
+          "meaning": "ventoso",
+          "example": "It’s cold and windy.",
+          "translation": "Está frio e ventando."
+        },
+        {
+          "word": "season",
+          "meaning": "estação do ano",
+          "example": "Spring is my favorite season.",
+          "translation": "A primavera é minha estação favorita."
+        },
+        {
+          "word": "improve",
+          "meaning": "melhorar",
+          "example": "We want to improve public transport.",
+          "translation": "Queremos melhorar o transporte público."
+        },
+        {
+          "word": "neighborhood",
+          "meaning": "bairro",
+          "example": "This neighborhood is safe.",
+          "translation": "Este bairro é seguro."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "I can’t stand…",
+          "meaning": "Não suporto…",
+          "use": "Express strong dislike.",
+          "example": "I can’t stand noisy neighbors.",
+          "translation": "Não suporto vizinhos barulhentos."
+        },
+        {
+          "phrase": "At the moment…",
+          "meaning": "Neste momento…",
+          "use": "Describe what is happening now.",
+          "example": "At the moment, I’m waiting for a bus.",
+          "translation": "Neste momento, estou esperando um ônibus."
+        },
+        {
+          "phrase": "It’s getting…",
+          "meaning": "Está ficando…",
+          "use": "Describe a change in conditions.",
+          "example": "It’s getting colder.",
+          "translation": "Está ficando mais frio."
+        },
+        {
+          "phrase": "Why don’t we…?",
+          "meaning": "Que tal…?",
+          "use": "Make a suggestion.",
+          "example": "Why don’t we take the subway?",
+          "translation": "Que tal pegarmos o metrô?"
+        },
+        {
+          "phrase": "I’m looking for…",
+          "meaning": "Estou procurando…",
+          "use": "Explain what you need to find.",
+          "example": "I’m looking for a quieter place.",
+          "translation": "Estou procurando um lugar mais tranquilo."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "She can ___ very well.",
+            "options": [
+              "sings",
+              "sing",
+              "to sing",
+              "singing"
+            ],
+            "answer": "sing",
+            "explanation": "Can + base verb."
+          },
+          {
+            "type": "mc",
+            "question": "They ___ TV at the moment.",
+            "options": [
+              "watch",
+              "watches",
+              "are watching",
+              "is watching"
+            ],
+            "answer": "are watching",
+            "explanation": "Present continuous: they are + -ing."
+          },
+          {
+            "type": "mc",
+            "question": "I usually ___ to work by bus.",
+            "options": [
+              "am going",
+              "go",
+              "going",
+              "goes"
+            ],
+            "answer": "go",
+            "explanation": "Usually signals a habit."
+          },
+          {
+            "type": "mc",
+            "question": "Listen! The baby ___.",
+            "options": [
+              "cries",
+              "is crying",
+              "cry",
+              "are crying"
+            ],
+            "answer": "is crying",
+            "explanation": "Listen! signals an action happening now."
+          },
+          {
+            "type": "fill",
+            "question": "Can you ___ me? (help)",
+            "options": [],
+            "answer": "help",
+            "explanation": "Can + base verb."
+          },
+          {
+            "type": "fill",
+            "question": "It ___ raining right now.",
+            "options": [],
+            "answer": "is",
+            "explanation": "It is raining."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Which sentence describes a habit?",
+            "options": [
+              "I’m cooking now.",
+              "She is talking.",
+              "He plays tennis on Fridays.",
+              "They are waiting."
+            ],
+            "answer": "He plays tennis on Fridays.",
+            "explanation": "On Fridays marks a recurring habit."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the correct negative.",
+            "options": [
+              "We can’t to come.",
+              "We don’t can come.",
+              "We can’t come.",
+              "We aren’t can come."
+            ],
+            "answer": "We can’t come.",
+            "explanation": "Can’t directly precedes the base verb."
+          },
+          {
+            "type": "mc",
+            "question": "A “crowded” place has…",
+            "options": [
+              "few people",
+              "many people",
+              "no traffic",
+              "quiet weather"
+            ],
+            "answer": "many people",
+            "explanation": "Crowded means full of people."
+          },
+          {
+            "type": "mc",
+            "question": "Correct spelling of -ing form of “run” is…",
+            "options": [
+              "runing",
+              "running",
+              "runying",
+              "runnning"
+            ],
+            "answer": "running",
+            "explanation": "Double the final consonant in run + ing."
+          },
+          {
+            "type": "fill",
+            "question": "She ___ working from home this week.",
+            "options": [],
+            "answer": "is",
+            "explanation": "Temporary situation: is working."
+          },
+          {
+            "type": "fill",
+            "question": "Why don’t we ___ a taxi?",
+            "options": [],
+            "answer": "take",
+            "explanation": "Suggestion: Why don’t we + base verb."
+          }
+        ]
+      },
+      "videoTopics": [
+        "5A Vote for me!",
+        "5B A quiet life",
+        "P3 Practical English Episode 3 buying clothes"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "5B A quiet life.docx",
+          "url": "../assets/video-practice/practice/5b-a-quiet-life.docx",
+          "key": "../assets/video-practice/answer-key/5b-a-quiet-life.docx",
+          "code": "5B"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "Vote for me!",
+          "prompt": "Identify the proposals actually made. Give one reason for supporting or rejecting a proposal.",
+          "name": "5A Vote for me!",
+          "code": "5A"
+        },
+        {
+          "title": "A quiet life?",
+          "prompt": "Observe the setting and signs of noise or calm. Compare the lifestyle shown with your own.",
+          "name": "5B A quiet life",
+          "code": "5B"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · Vote for me!",
+          "prompt": "Introduce the topic “Vote for me!”. What do you already know about abilities, city life, current activities and weather? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with abilities, city life, current activities and weather. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Can / can’t",
+          "prompt": "Use the target language “Can / can’t” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “I can’t stand…”, “At the moment…”, “It’s getting…”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about abilities, city life, current activities and weather. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about Vote for me!. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 6,
-      "title": "Unit 6",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "A North African story",
+      "subtitle": "The second Friday in July · Making music",
+      "theme": "Stories, dates, music, likes and preferences",
+      "grammar": [
+        {
+          "title": "Object pronouns",
+          "explanation": "Use an object pronoun after a verb or preposition to refer to the receiver of an action.",
+          "form": "me, you, him, her, it, us, them. Subject: I like him. Object: He likes me.",
+          "examples": "I know her. / Can you help us?",
+          "translation": "Eu a conheço. / Você pode nos ajudar?",
+          "usage": "Object pronouns do not normally come before the verb as the subject.",
+          "commonError": "She likes I.",
+          "correction": "She likes me.",
+          "errorExplanation": "Use me after likes, not I."
+        },
+        {
+          "title": "Like + verb-ing",
+          "explanation": "Use like/love/hate/enjoy + -ing to talk about activities and preferences.",
+          "form": "like/love/hate/enjoy + verb-ing; question: Do you like dancing?",
+          "examples": "I love listening to music. / He hates waiting.",
+          "translation": "Adoro ouvir música. / Ele odeia esperar.",
+          "usage": "Do not use the infinitive in this target pattern after enjoy.",
+          "commonError": "I enjoy to cook.",
+          "correction": "I enjoy cooking.",
+          "errorExplanation": "Enjoy is followed by -ing."
+        },
+        {
+          "title": "BE and DO review",
+          "explanation": "Choose be for identity/state/location and do/does for simple-present actions and questions.",
+          "form": "Be: Are you ready? Is she at home? Do/does + base verb for action questions: Do they play?",
+          "examples": "Are you tired? / Do you play guitar?",
+          "translation": "Você está cansado? / Você toca violão?",
+          "usage": "Don’t use do to form a question with be.",
+          "commonError": "Do you are ready?",
+          "correction": "Are you ready?",
+          "errorExplanation": "Invert the form of be to make its question."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "tale",
+          "meaning": "conto",
+          "example": "My grandfather told us a tale.",
+          "translation": "Meu avô nos contou um conto."
+        },
+        {
+          "word": "village",
+          "meaning": "aldeia / vila",
+          "example": "The village is near the desert.",
+          "translation": "A vila fica perto do deserto."
+        },
+        {
+          "word": "journey",
+          "meaning": "jornada / viagem",
+          "example": "Their journey took three days.",
+          "translation": "A jornada deles durou três dias."
+        },
+        {
+          "word": "date",
+          "meaning": "data",
+          "example": "What’s the date today?",
+          "translation": "Qual é a data de hoje?"
+        },
+        {
+          "word": "second",
+          "meaning": "segundo",
+          "example": "The event is on the second of July.",
+          "translation": "O evento é no dia dois de julho."
+        },
+        {
+          "word": "guitar",
+          "meaning": "violão / guitarra",
+          "example": "She plays the guitar.",
+          "translation": "Ela toca violão."
+        },
+        {
+          "word": "band",
+          "meaning": "banda",
+          "example": "The band is playing tonight.",
+          "translation": "A banda vai tocar hoje à noite."
+        },
+        {
+          "word": "lyrics",
+          "meaning": "letra de música",
+          "example": "I know the lyrics by heart.",
+          "translation": "Sei a letra de cor."
+        },
+        {
+          "word": "melody",
+          "meaning": "melodia",
+          "example": "The melody is beautiful.",
+          "translation": "A melodia é bonita."
+        },
+        {
+          "word": "crowd",
+          "meaning": "multidão / público",
+          "example": "The crowd sang along.",
+          "translation": "O público cantou junto."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "What kind of music…?",
+          "meaning": "Que tipo de música…?",
+          "use": "Ask about musical taste.",
+          "example": "What kind of music do you listen to?",
+          "translation": "Que tipo de música você ouve?"
+        },
+        {
+          "phrase": "I’m a big fan of…",
+          "meaning": "Sou muito fã de…",
+          "use": "Express enthusiasm.",
+          "example": "I’m a big fan of live music.",
+          "translation": "Sou muito fã de música ao vivo."
+        },
+        {
+          "phrase": "It sounds…",
+          "meaning": "Parece / soa…",
+          "use": "Give an opinion about what you hear.",
+          "example": "It sounds amazing.",
+          "translation": "Parece incrível."
+        },
+        {
+          "phrase": "Can you do me a favor?",
+          "meaning": "Pode me fazer um favor?",
+          "use": "Make a polite request.",
+          "example": "Can you do me a favor and call her?",
+          "translation": "Pode me fazer um favor e ligar para ela?"
+        },
+        {
+          "phrase": "I’m into…",
+          "meaning": "Eu curto / gosto muito de…",
+          "use": "Informally describe an interest.",
+          "example": "I’m really into jazz.",
+          "translation": "Eu curto muito jazz."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "I like Anna. I see ___ every day.",
+            "options": [
+              "she",
+              "her",
+              "hers",
+              "they"
+            ],
+            "answer": "her",
+            "explanation": "The object pronoun receives the action."
+          },
+          {
+            "type": "mc",
+            "question": "He enjoys ___ to music.",
+            "options": [
+              "listen",
+              "to listen",
+              "listening",
+              "listens"
+            ],
+            "answer": "listening",
+            "explanation": "Enjoy is followed by verb-ing."
+          },
+          {
+            "type": "mc",
+            "question": "___ you like live music?",
+            "options": [
+              "Are",
+              "Is",
+              "Do",
+              "Does"
+            ],
+            "answer": "Do",
+            "explanation": "Like is a lexical verb; use do."
+          },
+          {
+            "type": "mc",
+            "question": "The 2nd of July is the ___ of July.",
+            "options": [
+              "two",
+              "twice",
+              "second",
+              "twoth"
+            ],
+            "answer": "second",
+            "explanation": "Use ordinal numbers for dates."
+          },
+          {
+            "type": "fill",
+            "question": "She loves ___ songs. (sing)",
+            "options": [],
+            "answer": "singing",
+            "explanation": "Love can be followed by -ing."
+          },
+          {
+            "type": "fill",
+            "question": "Can you help ___? (we)",
+            "options": [],
+            "answer": "us",
+            "explanation": "We becomes us as an object."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Choose the correct sentence.",
+            "options": [
+              "I enjoy to dance.",
+              "I enjoy dancing.",
+              "I enjoying dance.",
+              "I enjoy dance."
+            ],
+            "answer": "I enjoy dancing.",
+            "explanation": "Enjoy + -ing."
+          },
+          {
+            "type": "mc",
+            "question": "Which is an object pronoun?",
+            "options": [
+              "we",
+              "they",
+              "he",
+              "them"
+            ],
+            "answer": "them",
+            "explanation": "Them is the object form of they."
+          },
+          {
+            "type": "mc",
+            "question": "“I’m into classical music” means…",
+            "options": [
+              "I dislike it",
+              "I am interested in it",
+              "I am inside a concert",
+              "I play it professionally"
+            ],
+            "answer": "I am interested in it",
+            "explanation": "I’m into expresses interest."
+          },
+          {
+            "type": "mc",
+            "question": "“What’s the date?” asks for…",
+            "options": [
+              "the time",
+              "the day number/month",
+              "a phone number",
+              "a price"
+            ],
+            "answer": "the day number/month",
+            "explanation": "Dates tell day/month/year."
+          },
+          {
+            "type": "fill",
+            "question": "Do you like ___? (dance)",
+            "options": [],
+            "answer": "dancing",
+            "explanation": "After like, the -ing form is natural here."
+          },
+          {
+            "type": "fill",
+            "question": "They know ___ well. (I)",
+            "options": [],
+            "answer": "me",
+            "explanation": "The object form of I is me."
+          }
+        ]
+      },
+      "videoTopics": [
+        "6A A North African story",
+        "6B The second Friday in July",
+        "6C Making music"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "6C Making music.docx",
+          "url": "../assets/video-practice/practice/6c-making-music.docx",
+          "key": "../assets/video-practice/answer-key/6c-making-music.docx",
+          "code": "6C"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "A North African story",
+          "prompt": "Track the people, place, and sequence of events. Retell only the details confirmed by the video.",
+          "name": "6A A North African story",
+          "code": "6A"
+        },
+        {
+          "title": "Dates and events",
+          "prompt": "Listen for dates and event references. Practise saying one date clearly and naturally.",
+          "name": "6B The second Friday in July",
+          "code": "6B"
+        },
+        {
+          "title": "Making music",
+          "prompt": "Notice instruments, musical styles, and opinions that appear. Recommend a kind of music with a reason.",
+          "name": "6C Making music",
+          "code": "6C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · A North African story",
+          "prompt": "Introduce the topic “A North African story”. What do you already know about stories, dates, music, likes and preferences? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with stories, dates, music, likes and preferences. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Object pronouns",
+          "prompt": "Use the target language “Object pronouns” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “What kind of music…?”, “I’m a big fan of…”, “It sounds…”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about stories, dates, music, likes and preferences. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about A North African story. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 7,
-      "title": "Unit 7",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "Selfies",
+      "subtitle": "Wrong name, wrong place · Happy New Year?",
+      "theme": "Past events, personal memories and celebrations",
+      "grammar": [
+        {
+          "title": "Was / were",
+          "explanation": "Use the past of be for past states, locations and descriptions.",
+          "form": "I/he/she/it was; you/we/they were. Negative: wasn’t/weren’t. Questions: Was she…? Were they…?",
+          "examples": "I was at home yesterday. / They weren’t ready.",
+          "translation": "Eu estava em casa ontem. / Eles não estavam prontos.",
+          "usage": "Use was/were, not did, to make questions with be.",
+          "commonError": "Did you were tired?",
+          "correction": "Were you tired?",
+          "errorExplanation": "Past be makes questions by inversion."
+        },
+        {
+          "title": "Simple past: regular verbs",
+          "explanation": "Use the simple past for completed events in the past.",
+          "form": "Regular verbs: base + -ed; spelling changes: live→lived, study→studied, stop→stopped. Negative/question: didn’t/did + base verb.",
+          "examples": "We watched a film. / She didn’t study last night.",
+          "translation": "Assistimos a um filme. / Ela não estudou ontem à noite.",
+          "usage": "After did/didn’t, the main verb returns to base form.",
+          "commonError": "Did you watched it?",
+          "correction": "Did you watch it?",
+          "errorExplanation": "Did already marks the past."
+        },
+        {
+          "title": "Simple past: irregular verbs",
+          "explanation": "Common verbs have irregular past forms which must be learned.",
+          "form": "go/went, have/had, get/got, see/saw, take/took, buy/bought. Use did/didn’t for questions and negatives.",
+          "examples": "I went to a party. / He didn’t see the message.",
+          "translation": "Fui a uma festa. / Ele não viu a mensagem.",
+          "usage": "Irregular affirmative forms change, but questions use did + base verb.",
+          "commonError": "She didn’t went home.",
+          "correction": "She didn’t go home.",
+          "errorExplanation": "Didn’t is followed by the base verb."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "selfie",
+          "meaning": "selfie",
+          "example": "We took a selfie at the concert.",
+          "translation": "Tiramos uma selfie no show."
+        },
+        {
+          "word": "photo booth",
+          "meaning": "cabine de fotos",
+          "example": "They used a photo booth at the party.",
+          "translation": "Eles usaram uma cabine de fotos na festa."
+        },
+        {
+          "word": "embarrassed",
+          "meaning": "constrangido / envergonhado",
+          "example": "I was embarrassed by my mistake.",
+          "translation": "Fiquei constrangido com meu erro."
+        },
+        {
+          "word": "anniversary",
+          "meaning": "aniversário de data importante",
+          "example": "Today is their wedding anniversary.",
+          "translation": "Hoje é o aniversário de casamento deles."
+        },
+        {
+          "word": "invitation",
+          "meaning": "convite",
+          "example": "I got an invitation yesterday.",
+          "translation": "Recebi um convite ontem."
+        },
+        {
+          "word": "celebrate",
+          "meaning": "comemorar",
+          "example": "We celebrated her birthday.",
+          "translation": "Comemoramos o aniversário dela."
+        },
+        {
+          "word": "miss",
+          "meaning": "perder / sentir falta",
+          "example": "I missed the train.",
+          "translation": "Perdi o trem."
+        },
+        {
+          "word": "arrive",
+          "meaning": "chegar",
+          "example": "They arrived late.",
+          "translation": "Eles chegaram tarde."
+        },
+        {
+          "word": "forget",
+          "meaning": "esquecer",
+          "example": "I forgot his name.",
+          "translation": "Esqueci o nome dele."
+        },
+        {
+          "word": "remember",
+          "meaning": "lembrar",
+          "example": "Do you remember that night?",
+          "translation": "Você se lembra daquela noite?"
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "What happened?",
+          "meaning": "O que aconteceu?",
+          "use": "Ask for a past event.",
+          "example": "You look upset. What happened?",
+          "translation": "Você parece chateado. O que aconteceu?"
+        },
+        {
+          "phrase": "I had a great time.",
+          "meaning": "Eu me diverti muito.",
+          "use": "Describe an enjoyable event.",
+          "example": "I had a great time at the wedding.",
+          "translation": "Me diverti muito no casamento."
+        },
+        {
+          "phrase": "It was a long time ago.",
+          "meaning": "Foi há muito tempo.",
+          "use": "Describe a distant past event.",
+          "example": "We met at school, a long time ago.",
+          "translation": "Nós nos conhecemos na escola, há muito tempo."
+        },
+        {
+          "phrase": "I can’t remember.",
+          "meaning": "Não consigo me lembrar.",
+          "use": "Explain that a memory is unclear.",
+          "example": "I can’t remember his last name.",
+          "translation": "Não consigo me lembrar do sobrenome dele."
+        },
+        {
+          "phrase": "Guess what!",
+          "meaning": "Adivinha!",
+          "use": "Introduce surprising news.",
+          "example": "Guess what! I won two tickets.",
+          "translation": "Adivinha! Ganhei dois ingressos."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "Yesterday I ___ at home.",
+            "options": [
+              "am",
+              "was",
+              "were",
+              "be"
+            ],
+            "answer": "was",
+            "explanation": "I takes was in the past."
+          },
+          {
+            "type": "mc",
+            "question": "They ___ a photo at the party.",
+            "options": [
+              "take",
+              "taked",
+              "took",
+              "taken"
+            ],
+            "answer": "took",
+            "explanation": "Take is irregular: took."
+          },
+          {
+            "type": "mc",
+            "question": "She didn’t ___ the invitation.",
+            "options": [
+              "got",
+              "get",
+              "gets",
+              "getting"
+            ],
+            "answer": "get",
+            "explanation": "Didn’t + base verb."
+          },
+          {
+            "type": "mc",
+            "question": "The past of “study” is…",
+            "options": [
+              "studyed",
+              "studied",
+              "studys",
+              "studid"
+            ],
+            "answer": "studied",
+            "explanation": "Consonant + y changes to -ied."
+          },
+          {
+            "type": "fill",
+            "question": "We ___ a great time. (have, past)",
+            "options": [],
+            "answer": "had",
+            "explanation": "Have becomes had."
+          },
+          {
+            "type": "fill",
+            "question": "___ you see him last night?",
+            "options": [],
+            "answer": "Did",
+            "explanation": "Simple-past action question uses did."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Choose the correct question.",
+            "options": [
+              "Did you went out?",
+              "Were you went out?",
+              "Did you go out?",
+              "You did go out?"
+            ],
+            "answer": "Did you go out?",
+            "explanation": "Did + subject + base verb."
+          },
+          {
+            "type": "mc",
+            "question": "Which word signals the past?",
+            "options": [
+              "tomorrow",
+              "usually",
+              "last weekend",
+              "right now"
+            ],
+            "answer": "last weekend",
+            "explanation": "It places the event in the past."
+          },
+          {
+            "type": "mc",
+            "question": "The past of “buy” is…",
+            "options": [
+              "buyed",
+              "bought",
+              "buied",
+              "buy"
+            ],
+            "answer": "bought",
+            "explanation": "Buy is irregular."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the right past of be for they.",
+            "options": [
+              "was",
+              "is",
+              "were",
+              "did"
+            ],
+            "answer": "were",
+            "explanation": "They were."
+          },
+          {
+            "type": "fill",
+            "question": "I ___ the bus yesterday. (miss, past)",
+            "options": [],
+            "answer": "missed",
+            "explanation": "Regular verb: miss + ed."
+          },
+          {
+            "type": "fill",
+            "question": "She wasn’t at work; she ___ at home. (be, past)",
+            "options": [],
+            "answer": "was",
+            "explanation": "For she, use was."
+          }
+        ]
+      },
+      "videoTopics": [
+        "7B Wrong name, wrong place",
+        "7C Happy New Year"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "7B Wrong name, wrong place.docx",
+          "url": "../assets/video-practice/practice/7b-wrong-name-wrong-place.docx",
+          "key": "../assets/video-practice/answer-key/7b-wrong-name-wrong-place.docx",
+          "code": "7B"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "Wrong name, wrong place",
+          "prompt": "Track who is speaking and what confusion occurs. Retell the mix-up after checking the source.",
+          "name": "7B Wrong name, wrong place",
+          "code": "7B"
+        },
+        {
+          "title": "Video activity",
+          "prompt": "Preview the topic, watch carefully if you have access to the clip, record only confirmed details, and discuss with a partner.",
+          "name": "7C Happy New Year",
+          "code": "7C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · Selfies",
+          "prompt": "Introduce the topic “Selfies”. What do you already know about past events, personal memories and celebrations? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with past events, personal memories and celebrations. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Was / were",
+          "prompt": "Use the target language “Was / were” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “What happened?”, “I had a great time.”, “It was a long time ago.”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about past events, personal memories and celebrations. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about Selfies. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 8,
-      "title": "Unit 8",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "A murder mystery",
+      "subtitle": "A house with a history · Haunted rooms",
+      "theme": "Mysteries, houses, past descriptions and movement",
+      "grammar": [
+        {
+          "title": "Simple past review",
+          "explanation": "Combine regular and irregular past forms to narrate a sequence of completed events.",
+          "form": "Affirmative: subject + past form. Negative: subject + didn’t + base. Question: Did + subject + base?",
+          "examples": "The detective arrived and found a note. / Did they leave early?",
+          "translation": "O detetive chegou e encontrou um bilhete. / Eles saíram cedo?",
+          "usage": "Use past form only in affirmative statements; after did use base form.",
+          "commonError": "Did he found it?",
+          "correction": "Did he find it?",
+          "errorExplanation": "Did carries the past tense."
+        },
+        {
+          "title": "There is / are; some / any",
+          "explanation": "Describe what exists now and refer to an unspecified quantity.",
+          "form": "There is + singular/uncountable; there are + plural. Some mainly affirmative; any often questions/negatives.",
+          "examples": "There is a key on the table. / Are there any clues?",
+          "translation": "Há uma chave na mesa. / Há pistas?",
+          "usage": "Use are with plural nouns and any in many questions/negatives.",
+          "commonError": "There is two doors.",
+          "correction": "There are two doors.",
+          "errorExplanation": "Two doors is plural."
+        },
+        {
+          "title": "There was / were; place and movement prepositions",
+          "explanation": "Describe what existed in the past and locate or trace movement.",
+          "form": "There was + singular; there were + plural. Place: under, behind, between, next to. Movement: into, out of, across, through.",
+          "examples": "There was a noise upstairs. / He walked through the hall.",
+          "translation": "Houve um barulho no andar de cima. / Ele atravessou o corredor.",
+          "usage": "Use into for movement to the inside; in describes location.",
+          "commonError": "She went in the room.",
+          "correction": "She went into the room.",
+          "errorExplanation": "Into emphasizes movement toward the inside."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "attic",
+          "meaning": "sótão",
+          "example": "The old trunk is in the attic.",
+          "translation": "O baú antigo está no sótão."
+        },
+        {
+          "word": "basement",
+          "meaning": "porão",
+          "example": "We heard a sound in the basement.",
+          "translation": "Ouvimos um som no porão."
+        },
+        {
+          "word": "hallway",
+          "meaning": "corredor",
+          "example": "The hallway was dark.",
+          "translation": "O corredor estava escuro."
+        },
+        {
+          "word": "stairs",
+          "meaning": "escadas",
+          "example": "He ran up the stairs.",
+          "translation": "Ele subiu correndo as escadas."
+        },
+        {
+          "word": "footprint",
+          "meaning": "pegada",
+          "example": "There was a footprint near the window.",
+          "translation": "Havia uma pegada perto da janela."
+        },
+        {
+          "word": "evidence",
+          "meaning": "evidência / prova",
+          "example": "The police found new evidence.",
+          "translation": "A polícia encontrou novas evidências."
+        },
+        {
+          "word": "suspect",
+          "meaning": "suspeito",
+          "example": "The suspect arrived at midnight.",
+          "translation": "O suspeito chegou à meia-noite."
+        },
+        {
+          "word": "mystery",
+          "meaning": "mistério",
+          "example": "The story is a mystery.",
+          "translation": "A história é um mistério."
+        },
+        {
+          "word": "upstairs",
+          "meaning": "no andar de cima",
+          "example": "Someone is upstairs.",
+          "translation": "Alguém está no andar de cima."
+        },
+        {
+          "word": "through",
+          "meaning": "através de / por dentro de",
+          "example": "They walked through the garden.",
+          "translation": "Eles caminharam pelo jardim."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "There was a…",
+          "meaning": "Havia um/uma…",
+          "use": "Introduce something in a past setting.",
+          "example": "There was a strange noise.",
+          "translation": "Havia um barulho estranho."
+        },
+        {
+          "phrase": "What did you find?",
+          "meaning": "O que você encontrou?",
+          "use": "Ask about a discovery.",
+          "example": "What did you find under the bed?",
+          "translation": "O que você encontrou debaixo da cama?"
+        },
+        {
+          "phrase": "It must be…",
+          "meaning": "Deve ser…",
+          "use": "Make a simple deduction.",
+          "example": "It must be the old key.",
+          "translation": "Deve ser a chave antiga."
+        },
+        {
+          "phrase": "Go through…",
+          "meaning": "Passar por…",
+          "use": "Describe movement through a place.",
+          "example": "Go through the front door.",
+          "translation": "Entre pela porta da frente."
+        },
+        {
+          "phrase": "I have no idea.",
+          "meaning": "Não faço ideia.",
+          "use": "Say you do not know.",
+          "example": "I have no idea who was there.",
+          "translation": "Não faço ideia de quem estava lá."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "There ___ three windows in the room.",
+            "options": [
+              "was",
+              "were",
+              "is",
+              "be"
+            ],
+            "answer": "were",
+            "explanation": "Three windows is plural."
+          },
+          {
+            "type": "mc",
+            "question": "Is there ___ evidence?",
+            "options": [
+              "some",
+              "any",
+              "a",
+              "many"
+            ],
+            "answer": "any",
+            "explanation": "Any is common in questions."
+          },
+          {
+            "type": "mc",
+            "question": "The cat is ___ the table. (underneath it)",
+            "options": [
+              "through",
+              "into",
+              "under",
+              "across"
+            ],
+            "answer": "under",
+            "explanation": "Under shows position below."
+          },
+          {
+            "type": "mc",
+            "question": "They ___ the house at 10 p.m.",
+            "options": [
+              "leave",
+              "leaved",
+              "left",
+              "leaving"
+            ],
+            "answer": "left",
+            "explanation": "Leave is irregular: left."
+          },
+          {
+            "type": "fill",
+            "question": "There ___ a strange noise last night.",
+            "options": [],
+            "answer": "was",
+            "explanation": "Singular noun takes there was."
+          },
+          {
+            "type": "fill",
+            "question": "Did the detective ___ the door? (open)",
+            "options": [],
+            "answer": "open",
+            "explanation": "After did, use base verb."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Choose the correct sentence.",
+            "options": [
+              "There were a key.",
+              "There was two keys.",
+              "There were two keys.",
+              "There are two key."
+            ],
+            "answer": "There were two keys.",
+            "explanation": "Plural complement requires were."
+          },
+          {
+            "type": "mc",
+            "question": "“Walked into the room” describes…",
+            "options": [
+              "location only",
+              "movement to the inside",
+              "movement across a surface",
+              "movement out"
+            ],
+            "answer": "movement to the inside",
+            "explanation": "Into describes direction to the interior."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the correct question.",
+            "options": [
+              "What did he saw?",
+              "What he did see?",
+              "What did he see?",
+              "What was he see?"
+            ],
+            "answer": "What did he see?",
+            "explanation": "Did + base verb."
+          },
+          {
+            "type": "mc",
+            "question": "A person the police may investigate is a…",
+            "options": [
+              "witness",
+              "suspect",
+              "neighborly",
+              "footprint"
+            ],
+            "answer": "suspect",
+            "explanation": "A suspect may be connected to a crime."
+          },
+          {
+            "type": "fill",
+            "question": "There ___ any clues in the drawer. (negative past)",
+            "options": [],
+            "answer": "weren’t|were not",
+            "explanation": "Plural: there weren’t any clues."
+          },
+          {
+            "type": "fill",
+            "question": "The photo is ___ the wall and the door. (between)",
+            "options": [],
+            "answer": "between",
+            "explanation": "Between locates something in the middle of two things."
+          }
+        ]
+      },
+      "videoTopics": [
+        "8A A murder mystery",
+        "8B A house with a history",
+        "8C Haunted rooms"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "8C Haunted rooms.docx",
+          "url": "../assets/video-practice/practice/8c-haunted-rooms.docx",
+          "key": "../assets/video-practice/answer-key/8c-haunted-rooms.docx",
+          "code": "8C"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "A murder mystery",
+          "prompt": "Observe clues and locations. Separate evidence from guesses and explain a theory.",
+          "name": "8A A murder mystery",
+          "code": "8A"
+        },
+        {
+          "title": "A house with a history",
+          "prompt": "Notice rooms, objects, and past events explicitly mentioned. Use there was/were to describe the house.",
+          "name": "8B A house with a history",
+          "code": "8B"
+        },
+        {
+          "title": "Haunted rooms",
+          "prompt": "Identify the setting and the reported strange events. Use past-tense language to retell the confirmed sequence.",
+          "name": "8C Haunted rooms",
+          "code": "8C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · A murder mystery",
+          "prompt": "Introduce the topic “A murder mystery”. What do you already know about mysteries, houses, past descriptions and movement? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with mysteries, houses, past descriptions and movement. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Simple past review",
+          "prompt": "Use the target language “Simple past review” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “There was a…”, “What did you find?”, “It must be…”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about mysteries, houses, past descriptions and movement. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about A murder mystery. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 9,
-      "title": "Unit 9",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "#mydinnerlastnight",
+      "subtitle": "White gold · Facts and figures",
+      "theme": "Food, quantities, meals, comparisons and numbers",
+      "grammar": [
+        {
+          "title": "Countable and uncountable nouns",
+          "explanation": "Distinguish items that can be counted from substances or concepts treated as a mass.",
+          "form": "Countable: an apple, two apples. Uncountable: rice, water, information. a/an with singular countables; some with plural/uncountable in affirmative clauses.",
+          "examples": "I’d like an apple and some rice. / We need some water.",
+          "translation": "Quero uma maçã e um pouco de arroz. / Precisamos de água.",
+          "usage": "Do not use a/an directly with uncountable nouns.",
+          "commonError": "an information",
+          "correction": "some information",
+          "errorExplanation": "Information is uncountable."
+        },
+        {
+          "title": "Much / many / a lot of",
+          "explanation": "Ask and answer about quantities.",
+          "form": "How much + uncountable? How many + plural countable? A lot of works with both. Much/many common in questions and negatives.",
+          "examples": "How much milk do we need? / How many eggs are there?",
+          "translation": "De quanto leite precisamos? / Quantos ovos há?",
+          "usage": "Many goes with countable plurals; much with uncountables.",
+          "commonError": "How much apples?",
+          "correction": "How many apples?",
+          "errorExplanation": "Apples are countable."
+        },
+        {
+          "title": "Comparative adjectives",
+          "explanation": "Compare two people, places or things.",
+          "form": "Short adjective + -er + than; y→ier; long adjectives: more + adjective + than. Irregular: good-better, bad-worse.",
+          "examples": "This café is cheaper than that one. / Today is better than yesterday.",
+          "translation": "Este café é mais barato que aquele. / Hoje está melhor que ontem.",
+          "usage": "Use than for the second item in a direct comparison.",
+          "commonError": "This meal is more cheap than that one.",
+          "correction": "This meal is cheaper than that one.",
+          "errorExplanation": "Cheap normally takes -er."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "meal",
+          "meaning": "refeição",
+          "example": "Dinner is my favorite meal.",
+          "translation": "O jantar é minha refeição favorita."
+        },
+        {
+          "word": "menu",
+          "meaning": "cardápio",
+          "example": "Could I see the menu, please?",
+          "translation": "Poderia ver o cardápio, por favor?"
+        },
+        {
+          "word": "bill / check",
+          "meaning": "conta",
+          "example": "Can we have the check?",
+          "translation": "Pode trazer a conta?"
+        },
+        {
+          "word": "slice",
+          "meaning": "fatia",
+          "example": "I’d like a slice of bread.",
+          "translation": "Quero uma fatia de pão."
+        },
+        {
+          "word": "bottle",
+          "meaning": "garrafa",
+          "example": "We bought a bottle of water.",
+          "translation": "Compramos uma garrafa de água."
+        },
+        {
+          "word": "spicy",
+          "meaning": "picante",
+          "example": "This curry is very spicy.",
+          "translation": "Este curry é muito picante."
+        },
+        {
+          "word": "sweet",
+          "meaning": "doce",
+          "example": "The dessert is too sweet.",
+          "translation": "A sobremesa é doce demais."
+        },
+        {
+          "word": "ingredients",
+          "meaning": "ingredientes",
+          "example": "What are the ingredients?",
+          "translation": "Quais são os ingredientes?"
+        },
+        {
+          "word": "quantity",
+          "meaning": "quantidade",
+          "example": "Use a small quantity of oil.",
+          "translation": "Use uma pequena quantidade de óleo."
+        },
+        {
+          "word": "compare",
+          "meaning": "comparar",
+          "example": "Let’s compare the prices.",
+          "translation": "Vamos comparar os preços."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "Could I have…?",
+          "meaning": "Eu poderia pedir…?",
+          "use": "Order politely.",
+          "example": "Could I have the chicken salad, please?",
+          "translation": "Eu poderia pedir a salada de frango, por favor?"
+        },
+        {
+          "phrase": "I’d like…",
+          "meaning": "Eu gostaria de…",
+          "use": "Order or express a preference.",
+          "example": "I’d like a table for two.",
+          "translation": "Eu gostaria de uma mesa para dois."
+        },
+        {
+          "phrase": "Anything else?",
+          "meaning": "Mais alguma coisa?",
+          "use": "Check whether someone needs more.",
+          "example": "Anything else? — No, thank you.",
+          "translation": "Mais alguma coisa? — Não, obrigado."
+        },
+        {
+          "phrase": "Can we have the check?",
+          "meaning": "Pode trazer a conta?",
+          "use": "Ask to pay in a restaurant.",
+          "example": "Excuse me, can we have the check?",
+          "translation": "Com licença, pode trazer a conta?"
+        },
+        {
+          "phrase": "It’s a little too…",
+          "meaning": "Está um pouco… demais.",
+          "use": "Give a tactful negative opinion.",
+          "example": "The soup is a little too salty.",
+          "translation": "A sopa está um pouco salgada demais."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "Which noun is uncountable?",
+            "options": [
+              "apple",
+              "egg",
+              "rice",
+              "sandwich"
+            ],
+            "answer": "rice",
+            "explanation": "Rice is normally uncountable."
+          },
+          {
+            "type": "mc",
+            "question": "How ___ eggs do we need?",
+            "options": [
+              "much",
+              "many",
+              "any",
+              "a lot"
+            ],
+            "answer": "many",
+            "explanation": "Eggs are countable plural."
+          },
+          {
+            "type": "mc",
+            "question": "This restaurant is ___ than the café.",
+            "options": [
+              "expensive",
+              "more expensive",
+              "most expensive",
+              "the more expensive"
+            ],
+            "answer": "more expensive",
+            "explanation": "Long adjectives use more + adjective + than."
+          },
+          {
+            "type": "mc",
+            "question": "I’d like ___ orange, please.",
+            "options": [
+              "a",
+              "an",
+              "some",
+              "any"
+            ],
+            "answer": "an",
+            "explanation": "Orange begins with a vowel sound."
+          },
+          {
+            "type": "fill",
+            "question": "How ___ water is left?",
+            "options": [],
+            "answer": "much",
+            "explanation": "Water is uncountable."
+          },
+          {
+            "type": "fill",
+            "question": "Good → comparative: ___",
+            "options": [],
+            "answer": "better",
+            "explanation": "Good is irregular: better."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Which phrase is correct?",
+            "options": [
+              "many sugar",
+              "much apples",
+              "a lot of rice",
+              "an advice"
+            ],
+            "answer": "a lot of rice",
+            "explanation": "A lot of can be used with uncountables."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the correct comparison.",
+            "options": [
+              "The bill is cheap than lunch.",
+              "The bill is cheaper than lunch.",
+              "The bill is more cheaper.",
+              "The bill cheaper than lunch."
+            ],
+            "answer": "The bill is cheaper than lunch.",
+            "explanation": "Short adjective takes -er + than."
+          },
+          {
+            "type": "mc",
+            "question": "A “slice” is commonly used with…",
+            "options": [
+              "bread",
+              "water",
+              "rice",
+              "milk"
+            ],
+            "answer": "bread",
+            "explanation": "A slice of bread is a standard collocation."
+          },
+          {
+            "type": "mc",
+            "question": "A polite way to order is…",
+            "options": [
+              "Give me pasta.",
+              "I like pasta yesterday.",
+              "Could I have pasta, please?",
+              "You must pasta."
+            ],
+            "answer": "Could I have pasta, please?",
+            "explanation": "Could I have… is polite and natural."
+          },
+          {
+            "type": "fill",
+            "question": "How ___ bottles are on the table?",
+            "options": [],
+            "answer": "many",
+            "explanation": "Bottles are countable."
+          },
+          {
+            "type": "fill",
+            "question": "This soup is ___ (good) than yesterday’s.",
+            "options": [],
+            "answer": "better",
+            "explanation": "Irregular comparative: good → better."
+          }
+        ]
+      },
+      "videoTopics": [
+        "9A #mydinnerlastnight",
+        "9B White gold",
+        "P5 Practical English Episode 5 Ordering a meal"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "9A #mydinnerlastnight.docx",
+          "url": "../assets/video-practice/practice/9a-mydinnerlastnight.docx",
+          "key": "../assets/video-practice/answer-key/9a-mydinnerlastnight.docx",
+          "code": "9A"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "#mydinnerlastnight",
+          "prompt": "Record food and drink mentioned. Identify countable and uncountable items without guessing missing details.",
+          "name": "9A #mydinnerlastnight",
+          "code": "9A"
+        },
+        {
+          "title": "Video activity",
+          "prompt": "Preview the topic, watch carefully if you have access to the clip, record only confirmed details, and discuss with a partner.",
+          "name": "9B White gold",
+          "code": "9B"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · #mydinnerlastnight",
+          "prompt": "Introduce the topic “#mydinnerlastnight”. What do you already know about food, quantities, meals, comparisons and numbers? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with food, quantities, meals, comparisons and numbers. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Countable and uncountable nouns",
+          "prompt": "Use the target language “Countable and uncountable nouns” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “Could I have…?”, “I’d like…”, “Anything else?”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about food, quantities, meals, comparisons and numbers. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about #mydinnerlastnight. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 10,
-      "title": "Unit 10",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "The most dangerous place…",
+      "subtitle": "Five continents in a day · The fortune-teller",
+      "theme": "Places, travel, superlatives, plans and predictions",
+      "grammar": [
+        {
+          "title": "Superlative adjectives",
+          "explanation": "Identify the highest/lowest degree within a group.",
+          "form": "the + adjective-est for many short adjectives; the most + long adjective. Irregular: good→best, bad→worst. Often followed by in + place/group.",
+          "examples": "It’s the oldest building in town. / This is the most expensive hotel.",
+          "translation": "É o prédio mais antigo da cidade. / Este é o hotel mais caro.",
+          "usage": "Superlatives generally require the before the adjective.",
+          "commonError": "She is tallest student.",
+          "correction": "She is the tallest student.",
+          "errorExplanation": "Use the with a superlative."
+        },
+        {
+          "title": "Be going to: plans and intentions",
+          "explanation": "Talk about a plan or intention decided before speaking.",
+          "form": "Subject + am/is/are + going to + base verb. Questions: Are you going to travel?",
+          "examples": "We’re going to visit Lima in June. / I’m not going to drive.",
+          "translation": "Vamos visitar Lima em junho. / Não vou dirigir.",
+          "usage": "Going to is followed by the base verb, not -ing.",
+          "commonError": "She is going to visiting Rome.",
+          "correction": "She is going to visit Rome.",
+          "errorExplanation": "Use base verb after going to."
+        },
+        {
+          "title": "Be going to: predictions",
+          "explanation": "Predict a future result using present evidence.",
+          "form": "am/is/are + going to + base verb. Add time expressions such as soon, tomorrow, next week.",
+          "examples": "Look at those clouds. It’s going to rain. / You’re going to love this city.",
+          "translation": "Olhe aquelas nuvens. Vai chover. / Você vai adorar esta cidade.",
+          "usage": "Use be going to for an evidence-based prediction as well as a plan.",
+          "commonError": "It going to rain.",
+          "correction": "It’s going to rain.",
+          "errorExplanation": "The form of be is required."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "landmark",
+          "meaning": "ponto turístico / marco",
+          "example": "The bridge is a famous landmark.",
+          "translation": "A ponte é um marco famoso."
+        },
+        {
+          "word": "waterfall",
+          "meaning": "cachoeira",
+          "example": "The waterfall is spectacular.",
+          "translation": "A cachoeira é espetacular."
+        },
+        {
+          "word": "desert",
+          "meaning": "deserto",
+          "example": "The desert is very dry.",
+          "translation": "O deserto é muito seco."
+        },
+        {
+          "word": "island",
+          "meaning": "ilha",
+          "example": "We’re going to visit an island.",
+          "translation": "Vamos visitar uma ilha."
+        },
+        {
+          "word": "crowded",
+          "meaning": "lotado",
+          "example": "The square is crowded in summer.",
+          "translation": "A praça fica lotada no verão."
+        },
+        {
+          "word": "dangerous",
+          "meaning": "perigoso",
+          "example": "That road is dangerous at night.",
+          "translation": "Aquela estrada é perigosa à noite."
+        },
+        {
+          "word": "journey",
+          "meaning": "viagem / jornada",
+          "example": "The journey takes five hours.",
+          "translation": "A viagem leva cinco horas."
+        },
+        {
+          "word": "reservation",
+          "meaning": "reserva",
+          "example": "I made a hotel reservation.",
+          "translation": "Fiz uma reserva de hotel."
+        },
+        {
+          "word": "forecast",
+          "meaning": "previsão",
+          "example": "The forecast says it will be sunny.",
+          "translation": "A previsão diz que vai fazer sol."
+        },
+        {
+          "word": "destination",
+          "meaning": "destino",
+          "example": "Tokyo is our next destination.",
+          "translation": "Tóquio é nosso próximo destino."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "What’s the best way to…?",
+          "meaning": "Qual é a melhor maneira de…?",
+          "use": "Ask for recommendations.",
+          "example": "What’s the best way to get downtown?",
+          "translation": "Qual é a melhor maneira de chegar ao centro?"
+        },
+        {
+          "phrase": "I’m planning to…",
+          "meaning": "Estou planejando…",
+          "use": "Share an intention.",
+          "example": "I’m planning to travel next spring.",
+          "translation": "Estou planejando viajar na próxima primavera."
+        },
+        {
+          "phrase": "It’s the most…",
+          "meaning": "É o/a mais…",
+          "use": "Describe something at the top of a group.",
+          "example": "It’s the most beautiful view here.",
+          "translation": "É a vista mais bonita daqui."
+        },
+        {
+          "phrase": "You should definitely…",
+          "meaning": "Você definitivamente deveria…",
+          "use": "Recommend an activity.",
+          "example": "You should definitely visit the museum.",
+          "translation": "Você definitivamente deveria visitar o museu."
+        },
+        {
+          "phrase": "Looks like it’s going to…",
+          "meaning": "Parece que vai…",
+          "use": "Predict from present evidence.",
+          "example": "Looks like it’s going to rain.",
+          "translation": "Parece que vai chover."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "The ___ bridge in the city is 100 years old.",
+            "options": [
+              "old",
+              "older",
+              "oldest",
+              "most old"
+            ],
+            "answer": "oldest",
+            "explanation": "Superlative of old is oldest; use the."
+          },
+          {
+            "type": "mc",
+            "question": "We ___ going to visit Peru.",
+            "options": [
+              "am",
+              "is",
+              "are",
+              "be"
+            ],
+            "answer": "are",
+            "explanation": "We takes are."
+          },
+          {
+            "type": "mc",
+            "question": "Look at the dark clouds! It ___ rain.",
+            "options": [
+              "is going",
+              "is going to",
+              "going to",
+              "are going to"
+            ],
+            "answer": "is going to",
+            "explanation": "It is + going to + base verb."
+          },
+          {
+            "type": "mc",
+            "question": "“Bad” in the superlative is…",
+            "options": [
+              "baddest",
+              "worse",
+              "the worst",
+              "the most bad"
+            ],
+            "answer": "the worst",
+            "explanation": "Bad is irregular: the worst."
+          },
+          {
+            "type": "fill",
+            "question": "This is the ___ (beautiful) beach in the area.",
+            "options": [],
+            "answer": "most beautiful",
+            "explanation": "Use the most beautiful; the blank includes the if needed."
+          },
+          {
+            "type": "fill",
+            "question": "I’m going to ___ a hotel. (book)",
+            "options": [],
+            "answer": "book",
+            "explanation": "Going to + base verb."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Choose the correct sentence.",
+            "options": [
+              "It is most tall building.",
+              "It is the tallest building.",
+              "It is the taller building.",
+              "It the tallest building."
+            ],
+            "answer": "It is the tallest building.",
+            "explanation": "Use the + superlative."
+          },
+          {
+            "type": "mc",
+            "question": "A plan uses…",
+            "options": [
+              "was + verb",
+              "be going to + base verb",
+              "do + going",
+              "have + verb-ing"
+            ],
+            "answer": "be going to + base verb",
+            "explanation": "This structure expresses plans and intentions."
+          },
+          {
+            "type": "mc",
+            "question": "A “landmark” is…",
+            "options": [
+              "a local point of interest",
+              "a type of food",
+              "a ticket",
+              "a forecast"
+            ],
+            "answer": "a local point of interest",
+            "explanation": "A landmark is a recognizable place or structure."
+          },
+          {
+            "type": "mc",
+            "question": "“You’re going to love it” expresses…",
+            "options": [
+              "a past event",
+              "a prediction",
+              "a routine",
+              "a command"
+            ],
+            "answer": "a prediction",
+            "explanation": "It predicts a future reaction."
+          },
+          {
+            "type": "fill",
+            "question": "The ___ (good) restaurant in town is near here.",
+            "options": [],
+            "answer": "best|the best",
+            "explanation": "Good becomes best in the superlative."
+          },
+          {
+            "type": "fill",
+            "question": "They are going to ___ tomorrow. (leave)",
+            "options": [],
+            "answer": "leave",
+            "explanation": "After going to, use the base verb."
+          }
+        ]
+      },
+      "videoTopics": [
+        "10A The most dangerous place....",
+        "10B Five continents in a day",
+        "10C The fortune-teller",
+        "P6 Practical English Episode 6 Getting to the airport"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "10A The most dangerous place....docx",
+          "url": "../assets/video-practice/practice/10a-the-most-dangerous-place.docx",
+          "key": null,
+          "code": "10A"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "The most dangerous place…",
+          "prompt": "Notice places and comparisons. Choose a superlative only where the source supplies evidence.",
+          "name": "10A The most dangerous place....",
+          "code": "10A"
+        },
+        {
+          "title": "Video activity",
+          "prompt": "Preview the topic, watch carefully if you have access to the clip, record only confirmed details, and discuss with a partner.",
+          "name": "10B Five continents in a day",
+          "code": "10B"
+        },
+        {
+          "title": "Video activity",
+          "prompt": "Preview the topic, watch carefully if you have access to the clip, record only confirmed details, and discuss with a partner.",
+          "name": "10C The fortune-teller",
+          "code": "10C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · The most dangerous place…",
+          "prompt": "Introduce the topic “The most dangerous place…”. What do you already know about places, travel, superlatives, plans and predictions? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with places, travel, superlatives, plans and predictions. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Superlative adjectives",
+          "prompt": "Use the target language “Superlative adjectives” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “What’s the best way to…?”, “I’m planning to…”, “It’s the most…”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about places, travel, superlatives, plans and predictions. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about The most dangerous place…. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 11,
-      "title": "Unit 11",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "Culture shock",
+      "subtitle": "Experiences or things? · How smart is your phone?",
+      "theme": "Adverbs, verb patterns, countries and technology",
+      "grammar": [
+        {
+          "title": "Adverbs of manner and modifiers",
+          "explanation": "Adverbs explain how an action happens; modifiers strengthen or soften adjectives/adverbs.",
+          "form": "Many adverbs: adjective + -ly (slow→slowly; careful→carefully). Irregular: good→well. Modifiers: very, really, quite, too.",
+          "examples": "She speaks slowly. / He plays really well.",
+          "translation": "Ela fala devagar. / Ele toca muito bem.",
+          "usage": "Good is an adjective; well is commonly the adverb for performance.",
+          "commonError": "He speaks English good.",
+          "correction": "He speaks English well.",
+          "errorExplanation": "Use well to describe how he speaks."
+        },
+        {
+          "title": "Verbs + infinitive",
+          "explanation": "Certain verbs are followed by to + base verb to express plans, hopes, decisions or needs.",
+          "form": "want/need/hope/plan/decide/learn + to + base verb.",
+          "examples": "I hope to visit Japan. / We decided to stay home.",
+          "translation": "Espero visitar o Japão. / Decidimos ficar em casa.",
+          "usage": "Learn the verb pattern; enjoy is normally followed by -ing, not to-infinitive.",
+          "commonError": "I decided going home.",
+          "correction": "I decided to go home.",
+          "errorExplanation": "Decide is followed by to + base verb."
+        },
+        {
+          "title": "The or no article",
+          "explanation": "Use the with specific, familiar or uniquely identified nouns; omit it in many general expressions.",
+          "form": "the + specific noun; usually no the with languages, most countries, meals and general plural nouns.",
+          "examples": "The phone on the table is mine. / I speak English.",
+          "translation": "O celular sobre a mesa é meu. / Eu falo inglês.",
+          "usage": "Do not add the before most country names or languages.",
+          "commonError": "I speak the English.",
+          "correction": "I speak English.",
+          "errorExplanation": "Language names usually have no article."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "custom",
+          "meaning": "costume / tradição",
+          "example": "Removing shoes is a custom in some homes.",
+          "translation": "Tirar os sapatos é costume em algumas casas."
+        },
+        {
+          "word": "gesture",
+          "meaning": "gesto",
+          "example": "That gesture means “come here”.",
+          "translation": "Aquele gesto significa “venha aqui”."
+        },
+        {
+          "word": "polite",
+          "meaning": "educado / cortês",
+          "example": "It’s polite to say thank you.",
+          "translation": "É educado dizer obrigado."
+        },
+        {
+          "word": "rude",
+          "meaning": "grosseiro",
+          "example": "Interrupting people can seem rude.",
+          "translation": "Interromper as pessoas pode parecer grosseiro."
+        },
+        {
+          "word": "device",
+          "meaning": "dispositivo",
+          "example": "This device is easy to use.",
+          "translation": "Este dispositivo é fácil de usar."
+        },
+        {
+          "word": "screen",
+          "meaning": "tela",
+          "example": "My screen is too bright.",
+          "translation": "Minha tela está clara demais."
+        },
+        {
+          "word": "download",
+          "meaning": "baixar",
+          "example": "I need to download the app.",
+          "translation": "Preciso baixar o aplicativo."
+        },
+        {
+          "word": "password",
+          "meaning": "senha",
+          "example": "Change your password regularly.",
+          "translation": "Mude sua senha regularmente."
+        },
+        {
+          "word": "privacy",
+          "meaning": "privacidade",
+          "example": "Privacy is important online.",
+          "translation": "A privacidade é importante na internet."
+        },
+        {
+          "word": "charge",
+          "meaning": "carregar (bateria)",
+          "example": "I need to charge my phone.",
+          "translation": "Preciso carregar meu celular."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "It’s considered rude to…",
+          "meaning": "É considerado grosseiro…",
+          "use": "Describe social expectations.",
+          "example": "It’s considered rude to interrupt.",
+          "translation": "É considerado grosseiro interromper."
+        },
+        {
+          "phrase": "I’m trying to…",
+          "meaning": "Estou tentando…",
+          "use": "Describe an effort or goal.",
+          "example": "I’m trying to learn a new language.",
+          "translation": "Estou tentando aprender um novo idioma."
+        },
+        {
+          "phrase": "I forgot to…",
+          "meaning": "Esqueci de…",
+          "use": "Describe a forgotten action.",
+          "example": "I forgot to charge my phone.",
+          "translation": "Esqueci de carregar meu celular."
+        },
+        {
+          "phrase": "You need to…",
+          "meaning": "Você precisa…",
+          "use": "Give practical advice.",
+          "example": "You need to update the app.",
+          "translation": "Você precisa atualizar o aplicativo."
+        },
+        {
+          "phrase": "As far as I know…",
+          "meaning": "Até onde eu sei…",
+          "use": "Qualify what you say.",
+          "example": "As far as I know, the shop is closed.",
+          "translation": "Até onde eu sei, a loja está fechada."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "He speaks English ___.",
+            "options": [
+              "good",
+              "well",
+              "goodly",
+              "best"
+            ],
+            "answer": "well",
+            "explanation": "Well is the adverb form used with speak."
+          },
+          {
+            "type": "mc",
+            "question": "We decided ___ a taxi.",
+            "options": [
+              "take",
+              "taking",
+              "to take",
+              "took"
+            ],
+            "answer": "to take",
+            "explanation": "Decide + to-infinitive."
+          },
+          {
+            "type": "mc",
+            "question": "Which sentence is correct?",
+            "options": [
+              "I speak the Spanish.",
+              "I speak Spanish.",
+              "I the speak Spanish.",
+              "I speaks Spanish."
+            ],
+            "answer": "I speak Spanish.",
+            "explanation": "Language names normally have no the."
+          },
+          {
+            "type": "mc",
+            "question": "A “password” protects…",
+            "options": [
+              "your account",
+              "your shoes",
+              "your lunch",
+              "the weather"
+            ],
+            "answer": "your account",
+            "explanation": "A password is used to access/protect accounts."
+          },
+          {
+            "type": "fill",
+            "question": "She learned ___ a car. (drive)",
+            "options": [],
+            "answer": "to drive",
+            "explanation": "Learn + to-infinitive."
+          },
+          {
+            "type": "fill",
+            "question": "He did the test ___ (careful).",
+            "options": [],
+            "answer": "carefully",
+            "explanation": "Adverb: careful → carefully."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Choose the right verb pattern.",
+            "options": [
+              "hope visiting",
+              "hope to visit",
+              "hope visit to",
+              "hope to visiting"
+            ],
+            "answer": "hope to visit",
+            "explanation": "Hope is followed by to + base verb."
+          },
+          {
+            "type": "mc",
+            "question": "“Too expensive” means…",
+            "options": [
+              "not expensive",
+              "more expensive than wanted/acceptable",
+              "very cheap",
+              "just right"
+            ],
+            "answer": "more expensive than wanted/acceptable",
+            "explanation": "Too often expresses excess beyond what is wanted."
+          },
+          {
+            "type": "mc",
+            "question": "Which word is a device?",
+            "options": [
+              "custom",
+              "screen",
+              "journey",
+              "gesture"
+            ],
+            "answer": "screen",
+            "explanation": "A screen is part of an electronic device."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the correct sentence.",
+            "options": [
+              "The privacy is important.",
+              "Privacy is important.",
+              "A privacy is important.",
+              "Privacy the is important."
+            ],
+            "answer": "Privacy is important.",
+            "explanation": "Abstract nouns used generally often take no article."
+          },
+          {
+            "type": "fill",
+            "question": "I need ___ buy a charger.",
+            "options": [],
+            "answer": "to",
+            "explanation": "Need + to-infinitive."
+          },
+          {
+            "type": "fill",
+            "question": "She drives very ___ (good).",
+            "options": [],
+            "answer": "well",
+            "explanation": "Good becomes well as an adverb."
+          }
+        ]
+      },
+      "videoTopics": [
+        "11A Culture shock",
+        "11B Experience or things",
+        "11C How smart is your phone"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "11C How smart is your phone.docx",
+          "url": "../assets/video-practice/practice/11c-how-smart-is-your-phone.docx",
+          "key": "../assets/video-practice/answer-key/11c-how-smart-is-your-phone.docx",
+          "code": "11C"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "Culture shock",
+          "prompt": "Notice a cultural custom and how people respond. Discuss it respectfully without treating one culture as universal.",
+          "name": "11A Culture shock",
+          "code": "11A"
+        },
+        {
+          "title": "Experiences or things?",
+          "prompt": "Listen for intentions, decisions, and experiences. Note a verb followed by to + infinitive if heard.",
+          "name": "11B Experience or things",
+          "code": "11B"
+        },
+        {
+          "title": "How smart is your phone?",
+          "prompt": "Identify the phone tasks or features shown. Discuss a helpful feature and a privacy concern.",
+          "name": "11C How smart is your phone",
+          "code": "11C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · Culture shock",
+          "prompt": "Introduce the topic “Culture shock”. What do you already know about adverbs, verb patterns, countries and technology? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with adverbs, verb patterns, countries and technology. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Adverbs of manner and modifiers",
+          "prompt": "Use the target language “Adverbs of manner and modifiers” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “It’s considered rude to…”, “I’m trying to…”, “I forgot to…”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about adverbs, verb patterns, countries and technology. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about Culture shock. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     },
     {
       "id": 12,
-      "title": "Unit 12",
-      "subtitle": "Elementary English",
-      "status": "structure-ready-content-pending",
-      "lessons": [
-        "Student’s Book",
-        "Workbook"
+      "title": "I’ve seen it ten times!",
+      "subtitle": "He’s been everywhere! · The American English File interview",
+      "theme": "Life experiences, travel experiences and present perfect",
+      "grammar": [
+        {
+          "title": "Present perfect and past participles",
+          "explanation": "Use the present perfect for life experiences or events connected to the present when the exact past time is not the focus.",
+          "form": "have/has + past participle. I/you/we/they have; he/she/it has. Negatives: haven’t/hasn’t. Questions: Have you ever…?",
+          "examples": "I’ve visited Mexico. / She hasn’t tried sushi.",
+          "translation": "Já visitei o México. / Ela nunca experimentou sushi.",
+          "usage": "Use a past participle after have/has, not the simple past form unless forms coincide.",
+          "commonError": "I have went there.",
+          "correction": "I have gone there.",
+          "errorExplanation": "Go → went (past), gone (past participle)."
+        },
+        {
+          "title": "Present perfect vs simple past",
+          "explanation": "Choose present perfect for unspecified experience/current relevance; simple past with a finished, stated time.",
+          "form": "Present perfect: have/has + participle, often ever/never/just/already/yet. Simple past: yesterday, in 2022, last week.",
+          "examples": "Have you ever been to Chile? / I went in 2022.",
+          "translation": "Você já esteve no Chile? / Fui em 2022.",
+          "usage": "Do not normally combine present perfect with a finished time such as yesterday.",
+          "commonError": "I’ve seen it yesterday.",
+          "correction": "I saw it yesterday.",
+          "errorExplanation": "A finished time calls for the simple past."
+        },
+        {
+          "title": "Question formation review",
+          "explanation": "Build accurate yes/no and wh- questions across be, do, can, past be and present perfect.",
+          "form": "Be: Are you…? Do: Do you work…? Can: Can you…? Past be: Were they…? Present perfect: Have you…?",
+          "examples": "Where do you live? / Have you ever flown alone?",
+          "translation": "Onde você mora? / Você já viajou de avião sozinho?",
+          "usage": "Select the auxiliary that matches the tense/verb; avoid double auxiliaries.",
+          "commonError": "Did you have ever been there?",
+          "correction": "Have you ever been there?",
+          "errorExplanation": "Present-perfect questions begin with have/has."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "experience",
+          "meaning": "experiência",
+          "example": "Traveling alone was a great experience.",
+          "translation": "Viajar sozinho foi uma ótima experiência."
+        },
+        {
+          "word": "abroad",
+          "meaning": "no exterior",
+          "example": "She has worked abroad.",
+          "translation": "Ela já trabalhou no exterior."
+        },
+        {
+          "word": "ever",
+          "meaning": "alguma vez / já",
+          "example": "Have you ever eaten Korean food?",
+          "translation": "Você já comeu comida coreana?"
+        },
+        {
+          "word": "never",
+          "meaning": "nunca",
+          "example": "I’ve never flown first class.",
+          "translation": "Nunca viajei de primeira classe."
+        },
+        {
+          "word": "already",
+          "meaning": "já",
+          "example": "They’ve already arrived.",
+          "translation": "Eles já chegaram."
+        },
+        {
+          "word": "yet",
+          "meaning": "ainda / já (perguntas e negativas)",
+          "example": "Have you finished yet?",
+          "translation": "Você já terminou?"
+        },
+        {
+          "word": "recently",
+          "meaning": "recentemente",
+          "example": "I’ve recently changed jobs.",
+          "translation": "Mudei de emprego recentemente."
+        },
+        {
+          "word": "achievement",
+          "meaning": "conquista",
+          "example": "Finishing the course was a big achievement.",
+          "translation": "Terminar o curso foi uma grande conquista."
+        },
+        {
+          "word": "flight",
+          "meaning": "voo",
+          "example": "Our flight has been delayed.",
+          "translation": "Nosso voo foi atrasado."
+        },
+        {
+          "word": "interview",
+          "meaning": "entrevista",
+          "example": "The interview starts at noon.",
+          "translation": "A entrevista começa ao meio-dia."
+        }
+      ],
+      "chunks": [
+        {
+          "phrase": "Have you ever…?",
+          "meaning": "Você já…?",
+          "use": "Ask about life experience.",
+          "example": "Have you ever traveled alone?",
+          "translation": "Você já viajou sozinho?"
+        },
+        {
+          "phrase": "I’ve never…",
+          "meaning": "Eu nunca…",
+          "use": "Talk about an experience not had.",
+          "example": "I’ve never been to Africa.",
+          "translation": "Nunca estive na África."
+        },
+        {
+          "phrase": "Yes, I have. / No, I haven’t.",
+          "meaning": "Sim. / Não.",
+          "use": "Give a short present-perfect answer.",
+          "example": "Have you tried it? — No, I haven’t.",
+          "translation": "Você já experimentou? — Não."
+        },
+        {
+          "phrase": "It was the first time I…",
+          "meaning": "Foi a primeira vez que eu…",
+          "use": "Describe a specific past occasion.",
+          "example": "It was the first time I flew alone.",
+          "translation": "Foi a primeira vez que viajei sozinho."
+        },
+        {
+          "phrase": "Not yet.",
+          "meaning": "Ainda não.",
+          "use": "Say an expected action has not happened so far.",
+          "example": "Have you packed? — Not yet.",
+          "translation": "Já fez as malas? — Ainda não."
+        }
+      ],
+      "practice": {
+        "studentBook": [
+          {
+            "type": "mc",
+            "question": "I ___ visited New York.",
+            "options": [
+              "has",
+              "have",
+              "did",
+              "am"
+            ],
+            "answer": "have",
+            "explanation": "I uses have in present perfect."
+          },
+          {
+            "type": "mc",
+            "question": "She has never ___ sushi.",
+            "options": [
+              "eat",
+              "ate",
+              "eaten",
+              "eating"
+            ],
+            "answer": "eaten",
+            "explanation": "Eat → ate → eaten."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the sentence with a finished past time.",
+            "options": [
+              "I’ve seen him yesterday.",
+              "I saw him yesterday.",
+              "I have saw him yesterday.",
+              "I see him yesterday."
+            ],
+            "answer": "I saw him yesterday.",
+            "explanation": "Yesterday takes simple past."
+          },
+          {
+            "type": "mc",
+            "question": "___ you ever been abroad?",
+            "options": [
+              "Did",
+              "Have",
+              "Are",
+              "Do"
+            ],
+            "answer": "Have",
+            "explanation": "Present-perfect experience question."
+          },
+          {
+            "type": "fill",
+            "question": "He has ___ (go) to Japan twice.",
+            "options": [],
+            "answer": "been|gone",
+            "explanation": "Past participle of go is gone; “been to” is common for visited-and-returned."
+          },
+          {
+            "type": "fill",
+            "question": "I haven’t finished ___. (yet)",
+            "options": [],
+            "answer": "yet",
+            "explanation": "Yet is common in present-perfect negatives."
+          }
+        ],
+        "workbook": [
+          {
+            "type": "mc",
+            "question": "Which is a past participle?",
+            "options": [
+              "went",
+              "go",
+              "gone",
+              "going"
+            ],
+            "answer": "gone",
+            "explanation": "Go/went/gone: base/past/participle."
+          },
+          {
+            "type": "mc",
+            "question": "“Have you ever…?” asks about…",
+            "options": [
+              "a routine only",
+              "life experience",
+              "a future plan",
+              "an instruction"
+            ],
+            "answer": "life experience",
+            "explanation": "Ever is common when asking if an experience occurred at any point."
+          },
+          {
+            "type": "mc",
+            "question": "Choose the correct short answer. “Has she arrived?”",
+            "options": [
+              "Yes, she does.",
+              "Yes, she has.",
+              "Yes, she is.",
+              "Yes, she did."
+            ],
+            "answer": "Yes, she has.",
+            "explanation": "Repeat the auxiliary has in the short answer."
+          },
+          {
+            "type": "mc",
+            "question": "Which time expression usually pairs with simple past?",
+            "options": [
+              "ever",
+              "never",
+              "last night",
+              "yet"
+            ],
+            "answer": "last night",
+            "explanation": "Last night is a finished past time."
+          },
+          {
+            "type": "fill",
+            "question": "We have ___ this film before. (see)",
+            "options": [],
+            "answer": "seen",
+            "explanation": "See → saw → seen."
+          },
+          {
+            "type": "fill",
+            "question": "They ___ not arrived yet.",
+            "options": [],
+            "answer": "have|haven’t|have not",
+            "explanation": "They have not arrived yet / They haven’t arrived yet."
+          }
+        ]
+      },
+      "videoTopics": [
+        "12A I_ve seen it ten times!",
+        "12B He_s been everywhere!",
+        "12C The American English File interview"
+      ],
+      "studentBookSchedule": [
+        [
+          "Warm-up and goals",
+          10
+        ],
+        [
+          "Topic and vocabulary discovery",
+          15
+        ],
+        [
+          "Vocabulary in context + pronunciation",
+          15
+        ],
+        [
+          "Grammar Lab and guided noticing",
+          25
+        ],
+        [
+          "Reading / context / model dialogue",
+          15
+        ],
+        [
+          "Listening or video comprehension",
+          15
+        ],
+        [
+          "Guided practice + personalized speaking",
+          20
+        ],
+        [
+          "Exit ticket and reflection",
+          5
+        ]
+      ],
+      "workbookSchedule": [
+        [
+          "Active retrieval from Student’s Book",
+          10
+        ],
+        [
+          "Grammar accuracy practice",
+          25
+        ],
+        [
+          "Vocabulary, collocations and chunks",
+          15
+        ],
+        [
+          "Sentence building and error correction",
+          20
+        ],
+        [
+          "Writing task with checklist",
+          15
+        ],
+        [
+          "Listening/video follow-up or source worksheet",
+          10
+        ],
+        [
+          "Integrated speaking task",
+          20
+        ],
+        [
+          "Reflection and next steps",
+          5
+        ]
+      ],
+      "videoFiles": [
+        {
+          "name": "12B He_s been everywhere!.docx",
+          "url": "../assets/video-practice/practice/12b-he-s-been-everywhere.docx",
+          "key": "../assets/video-practice/answer-key/12b-he-s-been-everywhere.docx",
+          "code": "12B"
+        }
+      ],
+      "videoFocus": [
+        {
+          "title": "I’ve seen it ten times!",
+          "prompt": "Notice references to repeated experiences. Practise asking Have you ever…? without inventing the speaker’s answers.",
+          "name": "12A I_ve seen it ten times!",
+          "code": "12A"
+        },
+        {
+          "title": "He’s been everywhere!",
+          "prompt": "Track places and travel experiences explicitly named. Use present perfect for experience and simple past for dated details.",
+          "name": "12B He_s been everywhere!",
+          "code": "12B"
+        },
+        {
+          "title": "The American English File interview",
+          "prompt": "Identify the interview subject and topics actually discussed. Write two follow-up questions.",
+          "name": "12C The American English File interview",
+          "code": "12C"
+        }
       ],
       "conversation": [
         {
-          "title": "Warm-up",
-          "prompt": "Introduce yourself and share a few details about your everyday life."
+          "title": "Warm-up · I’ve seen it ten times!",
+          "prompt": "Introduce the topic “I’ve seen it ten times!”. What do you already know about life experiences, travel experiences and present perfect? Give two examples."
         },
         {
-          "title": "Personal experience",
-          "prompt": "Describe a memorable experience using simple past or present forms when appropriate."
+          "title": "Personal connection",
+          "prompt": "Talk about your own experience with life experiences, travel experiences and present perfect. What is similar or different in your life?"
         },
         {
-          "title": "Preferences",
-          "prompt": "Talk about things you like, dislike, and would like to try."
+          "title": "Language challenge · Present perfect and past participles",
+          "prompt": "Use the target language “Present perfect and past participles” to describe a real or imagined situation. Give at least three complete sentences."
+        },
+        {
+          "title": "Useful expressions",
+          "prompt": "Use these expressions naturally in a short exchange: “Have you ever…?”, “I’ve never…”, “Yes, I have. / No, I haven’t.”. Explain when you would say them."
         },
         {
           "title": "Role-play",
-          "prompt": "Create a short everyday dialogue with a partner. Take turns asking and answering questions."
+          "prompt": "Create a two-person dialogue about life experiences, travel experiences and present perfect. Include a greeting or opening, at least three questions, follow-up answers, and a natural ending."
         },
         {
           "title": "Fluency challenge",
-          "prompt": "Speak for one minute. Give examples and ask your partner one follow-up question."
-        }
-      ],
-      "practice": [
-        {
-          "type": "choice",
-          "question": "Choose the correct form: I ___ a student.",
-          "options": [
-            "am",
-            "is",
-            "are"
-          ],
-          "answer": 0,
-          "explanation": "Use am with I."
-        },
-        {
-          "type": "choice",
-          "question": "Choose the correct question word: ___ do you live?",
-          "options": [
-            "Where",
-            "Who",
-            "How many"
-          ],
-          "answer": 0,
-          "explanation": "Where asks about a place."
-        },
-        {
-          "type": "text",
-          "question": "Write one complete sentence about yourself.",
-          "accepted": [],
-          "explanation": "Open response: check word order, capitalization and punctuation."
+          "prompt": "Speak for 60–90 seconds about I’ve seen it ten times!. Include details, examples, and at least three words from this unit’s vocabulary."
         }
       ]
     }
